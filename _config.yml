@@ -29,7 +29,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Haopeng Li"
   avatar           : "images/profile.png"
-  bio              : "HKUST(GZ)"
+  bio              : "The Hong Kong University of Science and Technology (Guangzhou)"
   location         : # "Guangzhou, China"
   employer         :
   pubmed           : 
@@ -76,7 +76,7 @@ t:
     publications: "Publications"
     internships: "Internships"
     educations: "Educations"
-    blogs: "Blogs"
+    projects: "Projects"
     
 # Reading Files
 include:

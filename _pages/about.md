@@ -24,21 +24,21 @@ My name is <span class="accent-text">Haopeng Li</span>. I am a M.Phil. student a
 
 # <i class="fas fa-laptop-code"></i> Internships
 
-- *2026.03 - Present*: &nbsp;AI Infra Intern, **ByteDance**.
-- *2025.01 - 2025.07*: &nbsp;Visiting Student, **Westlake University**, advised by <a href="https://huanwang.tech" class="link-accent">Prof. Huan Wang</a>.
-- *2025.01 - 2025.07*: &nbsp;AI Infra Intern, **Huawei 2012 Lab**.
+- *2026.03 - Present*: &nbsp;**ByteDance**, AI Infra Intern.
+- *2025.01 - 2025.07*: &nbsp;**Westlake University**, Visiting Student, advised by <a href="https://huanwang.tech" class="link-accent">Prof. Huan Wang</a>.
+- *2025.01 - 2025.07*: &nbsp;**Huawei 2012 Lab**, AI Infra Intern.
 
 
 # <i class="fas fa-file-alt"></i> Publications 
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">Under Review</div>
+    <div class="badge pulse-accent">ICLR 2026</div>
     <img src='images/titlepage_arpg.png' alt="ARPG Architecture" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>Autoregressive Image Generation with Randomized Parallel Decoding</h3>
-    <div class="authors"><strong>Haopeng Li</strong>, Jinyue Yang, Guoqi Li, Huan Wang</div>
+    <div class="authors"><span class="accent-text">Haopeng Li</span>, Jinyue Yang, Guoqi Li, Huan Wang</div>
     <div class="venue">ICLR 2026</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2503.10568" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
@@ -54,7 +54,7 @@ My name is <span class="accent-text">Haopeng Li</span>. I am a M.Phil. student a
   </div>
   <div class='paper-box-text'>
     <h3>PISA: Piecewise Sparse Attention Is Wiser for Efficient Diffusion Transformers</h3>
-    <div class="authors"><strong>Haopeng Li</strong>, Shitong Shao, Wenliang Zhong, Zikai Zhou, Lichen Bai, Hui Xiong, Zeke Xie</div>
+    <div class="authors"><span class="accent-text">Haopeng Li</span>, Shitong Shao, Wenliang Zhong, Zikai Zhou, Lichen Bai, Hui Xiong, Zeke Xie</div>
     <div class="venue">Under Review</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2602.01077" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>

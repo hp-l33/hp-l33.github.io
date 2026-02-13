@@ -72,8 +72,11 @@ t:
   en:
     home: "Home"
     about: "About Me"
-    internships: "Internships"
+    news: "News"
     publications: "Publications"
+    internships: "Internships"
+    educations: "Educations"
+    blogs: "Blogs"
     
 # Reading Files
 include:

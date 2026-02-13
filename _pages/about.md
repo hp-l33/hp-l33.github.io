@@ -21,14 +21,22 @@ redirect_from:
 
 My name is <span class="accent-text">Haopeng Li</span>. I am a M.Phil. student at **HKUST(GZ)**, advised by Prof. <a href="https://sites.google.com/view/zeke-xie">Zeke Xie</a>. I was once very fortunate to be a visiting student at **Westlake University**, advised by Prof. <a href="https://huanwang.tech">Huan Wang</a>.
 
+<div class="quote-accent">
+  My research focuses on <span class="accent-text">Generative AI</span>, <span class="accent-text">Efficient AI</span>, and <span class="accent-text">MLSys</span>.
+</div>
 
-# <i class="fas fa-laptop-code"></i> Internships
+# News
+
+- *2026.01*: &nbsp;🎉 1 paper is accepted by <span class="accent-text">The Fourteenth International Conference on Learning Representations (ICLR 2026)</span>!
+
+
+# Internships
 
 - *2026.03 - Present*: &nbsp;**ByteDance**.
 - *2024.07 - 2024.12*: &nbsp;**Huawei 2012 Lab**.
 
 
-# <i class="fas fa-file-alt"></i> Publications 
+# Publications 
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>

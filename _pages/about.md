@@ -34,33 +34,31 @@ My name is <span class="accent-text">Haopeng Li</span>. I am a M.Phil. student a
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">Under Review</div>
-    <img src='images/TADA_pipeline.jpg' alt="CAST Framework Architecture" width="100%">
+    <img src='images/titlepage_arpg.png' alt="ARPG Architecture" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3>CAST: Achieving Stable LLM-based Text Analysis for Data Analytics</h3>
-    <div class="authors"><strong>Jinxiang Xie</strong>, Zihao Li, Wei He, Rui Ding, Shi Han, Dongmei Zhang</div>
-    <div class="venue">Under Review</div>
-    <!-- <div class="links">
-      <a href="#" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-      <a href="#" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div> -->
+    <h3>Autoregressive Image Generation with Randomized Parallel Decoding</h3>
+    <div class="authors"><strong>Haopeng Li</strong>, Jinyue Yang, Guoqi Li, Huan Wang</div>
+    <div class="venue">ICLR 2026</div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2503.10568" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+      <a href="https://github.com/hp-l33/ARPG" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
   </div>
 </div>
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">AAAI 2025</div>
-    <img src='images/Example_page-0001.png' alt="DSGram Framework Overview" width="100%">
+    <div class="badge pulse-accent">Preprint</div>
+    <img src='images/titlepage_pisa.png' alt="PISA Overview" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3>DSGram: Dynamic Weighting Sub-Metrics for Grammatical Error Correction in the Era of Large Language Models</h3>
-    <div class="authors"><strong>Jinxiang Xie</strong>, Yilin Li, Xunjian Yin, Xiaojun Wan</div>
-    <div class="venue">In The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025)</div>
+    <h3>PISA: Piecewise Sparse Attention Is Wiser for Efficient Diffusion Transformers</h3>
+    <div class="authors"><strong>Haopeng Li</strong>, Shitong Shao, Wenliang Zhong, Zikai Zhou, Lichen Bai, Hui Xiong, Zeke Xie</div>
+    <div class="venue">Under Review</div>
     <div class="links">
-      <a href="https://arxiv.org/abs/2412.12832" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="https://github.com/jxtse/GEC-Metrics-DSGram" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+      <a href="https://arxiv.org/abs/2602.01077" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="https://github.com/xie-lab-ml/piecewise-sparse-attention" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
-
-- Qiyang Chen, Yuezhi Wang, **Jinxiang Xie**, Guozheng Li, Chi Harold Liu. $M^3$ Trader: Multimodal Macro–Micro Inference with LLM-Guided Reinforcement Learning for Quantitative Trading. **Under Review**.

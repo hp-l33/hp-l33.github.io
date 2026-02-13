@@ -24,9 +24,8 @@ My name is <span class="accent-text">Haopeng Li</span>. I am a M.Phil. student a
 
 # <i class="fas fa-laptop-code"></i> Internships
 
-- *2026.03 - Present*: &nbsp;**ByteDance**, AI Infra Intern.
-- *2025.01 - 2025.07*: &nbsp;**Westlake University**, Visiting Student, advised by <a href="https://huanwang.tech" class="link-accent">Prof. Huan Wang</a>.
-- *2025.01 - 2025.07*: &nbsp;**Huawei 2012 Lab**, AI Infra Intern.
+- *2026.03 - Present*: &nbsp;**ByteDance**.
+- *2024.07 - 2024.12*: &nbsp;**Huawei 2012 Lab**.
 
 
 # <i class="fas fa-file-alt"></i> Publications 
@@ -39,7 +38,7 @@ My name is <span class="accent-text">Haopeng Li</span>. I am a M.Phil. student a
   <div class='paper-box-text'>
     <h3>Autoregressive Image Generation with Randomized Parallel Decoding</h3>
     <div class="authors"><span class="accent-text">Haopeng Li</span>, Jinyue Yang, Guoqi Li, Huan Wang</div>
-    <div class="venue">ICLR 2026</div>
+    <div class="venue">The 14th International Conference on Learning Representations (ICLR 2026)</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2503.10568" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
       <a href="https://github.com/hp-l33/ARPG" class="btn-accent"><i class="fab fa-github"></i> Code</a>
@@ -50,7 +49,7 @@ My name is <span class="accent-text">Haopeng Li</span>. I am a M.Phil. student a
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">Preprint</div>
-    <img src='images/titlepage_pisa.png' alt="PISA Overview" width="100%">
+    <img src='images/titlepage_pisa.jpg' alt="PISA Overview" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>PISA: Piecewise Sparse Attention Is Wiser for Efficient Diffusion Transformers</h3>
@@ -59,6 +58,54 @@ My name is <span class="accent-text">Haopeng Li</span>. I am a M.Phil. student a
     <div class="links">
       <a href="https://arxiv.org/abs/2602.01077" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
       <a href="https://github.com/xie-lab-ml/piecewise-sparse-attention" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">Preprint</div>
+    <img src='images/titlepage_live.png' alt="LIVE Overview" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>Lightning Unified Video Editing via In-Context Sparse Attention</h3>
+    <div class="authors">Shitong Shao, Zikai Zhou, <span class="accent-text">Haopeng Li</span>, Yingwei Song, Wenliang Zhong, Lichen Bai, Zeke Xie</div>
+    <div class="venue">Under Review</div>
+    <div class="links">
+      <a href="" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">Preprint</div>
+    <img src='images/titlepage_aim.png' alt="LIVE Overview" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>Scalable Autoregressive Image Generation with Mamba</h3>
+    <div class="authors"><span class="accent-text">Haopeng Li</span>, Jinyue Yang, Kexin Wang, Xuerui Qiu, Yuhong Chou, Xin Li, Guoqi Li</div>
+    <div class="venue">Preprint</div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2408.12245" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="https://github.com/hp-l33/AiM" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">NeurIPS 2024</div>
+    <img src='images/titlepage_graph.png' alt="LIVE Overview" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>Can Large Language Models Analyze Graphs like Professionals? A Benchmark, Datasets and Models</h3>
+    <div class="authors">Xin Li, Weize Chen, Qizhi Chu, <span class="accent-text">Haopeng Li</span>, Zhaojun Sun, Ran Li, Chen Qian, Yiwei Wei, Zhiyuan Liu, Chuan Shi, Maosong Sun, Cheng Yang</div>
+    <div class="venue">The 38th Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2408.12245" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="https://github.com/hp-l33/AiM" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>

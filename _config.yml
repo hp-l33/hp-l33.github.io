@@ -12,8 +12,8 @@ title_separator          : "-"
 subtitle                 : 
 name                     : "Haopeng Li"
 description              : ""
-url                     : "https://hp-l33.github.io"
-baseurl                 : ""
+url                      : "https://hp-l33.github.io"
+baseurl                  : ""
 repository               : "hp-l33/hp-l33.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -35,7 +35,7 @@ author:
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=okgdNU4AAAAJ"
   email            : "haopeng.l33@foxmail.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -72,12 +72,9 @@ t:
   en:
     home: "Home"
     about: "About Me"
-    news: "News"
-    publications: "Publications"
-    # educations: "Educations"
     internships: "Internships"
-    # blogs: "Blogs"
-
+    publications: "Publications"
+    
 # Reading Files
 include:
   - .htaccess

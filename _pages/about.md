@@ -19,7 +19,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is <span class="accent-text">Haopeng Li</span>. I am a M.Phil. student at **HKUST(GZ)**, advised by Prof. <a href="https://sites.google.com/view/zeke-xie">Zeke Xie</a>. I was once very fortunate to be a visiting student at **Westlake University**, advised by Prof. <a href="https://huanwang.tech">Huan Wang</a>. My research focuses on <span class="accent-text">Generative AI</span>, <span class="accent-text">Efficient AI</span>, and <span class="accent-text">MLSys</span>.
+My name is <span class="accent-text">Haopeng Li</span>. I am a M.Phil. student at **HKUST(GZ)**, advised by Prof. <a href="https://sites.google.com/view/zeke-xie">Zeke Xie</a>. I was once very fortunate to be a visiting student at **Westlake University**, advised by Prof. <a href="https://huanwang.tech">Huan Wang</a>. My research focuses on <span class="primary-gradient-text">Generative AI</span>, <span class="primary-gradient-text">Efficient AI</span>, and <span class="primary-gradient-text">MLSys</span>.
 
 
 <span class='anchor' id='-news'></span>
@@ -109,8 +109,8 @@ My name is <span class="accent-text">Haopeng Li</span>. I am a M.Phil. student a
     <div class="authors">Xin Li, Weize Chen, Qizhi Chu, <span class="accent-text">Haopeng Li</span>, Zhaojun Sun, Ran Li, Chen Qian, Yiwei Wei, Zhiyuan Liu, Chuan Shi, Maosong Sun, Cheng Yang</div>
     <div class="venue">The 38th Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</div>
     <div class="links">
-      <a href="https://arxiv.org/abs/2408.12245" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="https://github.com/hp-l33/AiM" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+      <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/ff417c3993894694e88ffc4d3f53d28b-Abstract-Datasets_and_Benchmarks_Track.html" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+      <a href="https://github.com/BUPT-GAMMA/ProGraph" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>

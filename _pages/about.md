@@ -28,7 +28,7 @@ My name is <span class="accent-text">Haopeng Li</span>. I am a M.Phil. student a
 <span class='anchor' id='-internships'></span>
 # Experiences
 
-- *2026.03 - Present*: &nbsp;Intern, **ByteDance**.
+
 - *2024.07 - 2024.12*: &nbsp;Intern, **Huawei 2012 Lab**.
 
 

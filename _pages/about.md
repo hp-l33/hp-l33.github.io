@@ -19,7 +19,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is <span class="accent-text">Haopeng Li</span>. I am a M.Phil. student at **HKUST(GZ)**, advised by Prof. <a href="https://sites.google.com/view/zeke-xie">Zeke Xie</a>. I was once very fortunate to be a visiting student at **Westlake University**, advised by Prof. <a href="https://huanwang.tech">Huan Wang</a>. My research focuses on <span class="primary-gradient-text">Generative AI</span>, <span class="primary-gradient-text">Efficient AI</span>, and <span class="primary-gradient-text">MLSys</span>.
+My name is <span class="accent-text">Haopeng Li</span>. I am an M.Phil. student at **HKUST(GZ)**, advised by Prof. <a href="https://sites.google.com/view/zeke-xie">Zeke Xie</a>. I was once very fortunate to be a visiting student at **Westlake University**, advised by Prof. <a href="https://huanwang.tech">Huan Wang</a>.
+
+My research focuses on <span class="primary-gradient-text">Efficient Generative AI</span> and <span class="primary-gradient-text">MLSys</span>.
 
 
 <span class='anchor' id='-news'></span>
@@ -28,7 +30,7 @@ My name is <span class="accent-text">Haopeng Li</span>. I am a M.Phil. student a
 <span class='anchor' id='-internships'></span>
 # Experiences
 
-
+- *2026.03 - present*: &nbsp;Intern, **ByteDance**.
 - *2024.07 - 2024.12*: &nbsp;Intern, **Huawei 2012 Lab**.
 
 

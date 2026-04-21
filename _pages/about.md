@@ -46,7 +46,6 @@ My name is <span class="accent-text">Haopeng Li</span>. I am an M.Phil. student 
     <div class="venue">The 14th International Conference on Learning Representations (ICLR 2026)</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2503.10568" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-      <a href="/projects/arpg/" class="btn-accent"><i class="fas fa-globe"></i> Website</a>
       <a href="https://github.com/hp-l33/ARPG" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>

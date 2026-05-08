@@ -76,7 +76,7 @@ My name is <span class="accent-text">Haopeng Li</span>. I am an M.Phil. student 
   <div class='paper-box-text'>
     <h3>Lightning Unified Video Editing via In-Context Sparse Attention</h3>
     <div class="authors">Shitong Shao, Zikai Zhou, <span class="accent-text">Haopeng Li</span>, Yingwei Song, Wenliang Zhong, Lichen Bai, Zeke Xie</div>
-    <div class="venue">43rd International Conference on Machine Learning (ICML 2026)</div>
+    <div class="venue">The 43rd International Conference on Machine Learning (ICML 2026)</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2605.04569" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
       <a href="https://github.com/xie-lab-ml/LIVEditor/tree/main" class="btn-accent"><i class="fab fa-github"></i> Code</a>

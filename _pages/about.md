@@ -25,11 +25,11 @@ My name is <span class="accent-text">Haopeng Li</span>. I am an M.Phil. student 
 <span class='anchor' id='-news'></span>
 
 
-<span class='anchor' id='-internships'></span>
+<!-- <span class='anchor' id='-internships'></span>
 # Experiences
 
 - *2026.02 - 2026.04*: &nbsp;Intern, **ByteDance**.
-- *2024.07 - 2024.12*: &nbsp;Intern, **Huawei 2012 Lab**.
+- *2024.07 - 2024.12*: &nbsp;Intern, **Huawei 2012 Lab**. -->
 
 
 <span class='anchor' id='-publications'></span>
@@ -78,8 +78,8 @@ My name is <span class="accent-text">Haopeng Li</span>. I am an M.Phil. student 
     <div class="authors">Shitong Shao, Zikai Zhou, <span class="accent-text">Haopeng Li</span>, Yingwei Song, Wenliang Zhong, Lichen Bai, Zeke Xie</div>
     <div class="venue">Under Review</div>
     <div class="links">
-      <a href="" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+      <a href="https://arxiv.org/abs/2605.04569" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="https://github.com/xie-lab-ml/LIVEditor/tree/main" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>

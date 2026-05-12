@@ -70,7 +70,7 @@ My name is <span class="accent-text">Haopeng Li</span>. I am an M.Phil. student 
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">ICML</div>
+    <div class="badge pulse-accent">ICML 2026</div>
     <img src='images/titlepage_live.png' alt="LIVE Overview" width="100%">
   </div>
   <div class='paper-box-text'>

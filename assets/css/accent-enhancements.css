@@ -1431,8 +1431,8 @@ body a:hover,
 .home-hero {
   position: relative;
   isolation: isolate;
-  min-height: 30rem;
-  padding: clamp(2.6rem, 6vw, 5rem) clamp(1.5rem, 5vw, 4.25rem);
+  min-height: 0;
+  padding: clamp(2.6rem, 5vw, 4rem) clamp(1.5rem, 5vw, 4.25rem);
   overflow: hidden;
   background:
     linear-gradient(115deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.48)),
@@ -1483,22 +1483,6 @@ body a:hover,
   height: 0.55rem;
   background: var(--editorial-gold);
   border-radius: 50%;
-}
-
-.home-hero__title {
-  max-width: 780px;
-  margin: 0 0 1.8rem;
-  color: var(--editorial-ink) !important;
-  font-family: var(--editorial-serif);
-  font-size: clamp(3rem, 6.2vw, 5.6rem);
-  font-weight: 500;
-  letter-spacing: -0.065em;
-  line-height: 0.95;
-}
-
-.home-hero__title em {
-  color: var(--editorial-red);
-  font-weight: 500;
 }
 
 .home-hero__intro {
@@ -1954,11 +1938,6 @@ body a:hover,
     min-height: 0;
     padding: 2.2rem 1.25rem;
     border-radius: 22px;
-  }
-
-  .home-hero__title {
-    margin-bottom: 1.35rem;
-    font-size: clamp(2.65rem, 13vw, 4.2rem);
   }
 
   .home-hero__eyebrow {

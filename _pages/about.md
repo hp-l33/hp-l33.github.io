@@ -19,7 +19,16 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is <span class="accent-text">Haopeng Li</span>. I am an M.Phil. student at **HKUST(GZ)**, advised by Prof. <a href="https://sites.google.com/view/zeke-xie">Zeke Xie</a>. I am currently a research intern at [NVIDIA Research](https://research.nvidia.com/labs/eai/) supervised by [Dr. Enze Xie](https://xieenze.github.io/) and [Prof. Song Han](https://hanlab.mit.edu/songhan). I was once very fortunate to be a visiting student at **Westlake University**, advised by Prof. <a href="https://huanwang.tech">Huan Wang</a>. My research focuses on <span class="primary-gradient-text">Efficient Generative AI</span> and <span class="primary-gradient-text">MLSys</span>.
+<section class="home-hero">
+  <div class="home-hero__eyebrow"><span></span> Efficient Generative AI · MLSys</div>
+  <h1 class="home-hero__title">Building efficient systems for <em>generative intelligence.</em></h1>
+  <p class="home-hero__intro">My name is <span class="accent-text">Haopeng Li</span>. I am an M.Phil. student at <strong>HKUST(GZ)</strong>, advised by Prof. <a href="https://sites.google.com/view/zeke-xie">Zeke Xie</a>. I am currently a research intern at <a href="https://research.nvidia.com/labs/eai/">NVIDIA Research</a> supervised by <a href="https://xieenze.github.io/">Dr. Enze Xie</a> and <a href="https://hanlab.mit.edu/songhan">Prof. Song Han</a>. I was once very fortunate to be a visiting student at <strong>Westlake University</strong>, advised by Prof. <a href="https://huanwang.tech">Huan Wang</a>. My research focuses on <span class="primary-gradient-text">Efficient Generative AI</span> and <span class="primary-gradient-text">MLSys</span>.</p>
+  <div class="home-hero__actions">
+    <a class="home-hero__button home-hero__button--primary" href="https://scholar.google.com/citations?user=okgdNU4AAAAJ"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a>
+    <a class="home-hero__button" href="https://github.com/hp-l33"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+    <a class="home-hero__button" href="mailto:haopeng.l33@foxmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
+  </div>
+</section>
 
 
 <span class='anchor' id='-news'></span>
@@ -170,5 +179,14 @@ My name is <span class="accent-text">Haopeng Li</span>. I am an M.Phil. student 
 
 <span class='anchor' id='-awards'></span>
 # Awards
-- *2021.10*: &nbsp;**National Scholarship**, Ministry of Education
-- *2025.09*: &nbsp;**Postgraduate Studentship**, HKUST(GZ)
+
+<div class="award-list">
+  <div class="award-item">
+    <span class="award-date">2025.09</span>
+    <span class="award-detail"><strong>Postgraduate Studentship</strong><span>HKUST(GZ)</span></span>
+  </div>
+  <div class="award-item">
+    <span class="award-date">2021.10</span>
+    <span class="award-detail"><strong>National Scholarship</strong><span>Ministry of Education</span></span>
+  </div>
+</div>

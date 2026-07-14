@@ -17,16 +17,11 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+<div class="anchor" id="about-me"></div>
 
 <section class="home-hero">
   <div class="home-hero__eyebrow"><span></span> Efficient Generative AI · MLSys</div>
-  <p class="home-hero__intro">My name is <span class="accent-text">Haopeng Li</span>. I am an M.Phil. student at <strong>HKUST(GZ)</strong>, advised by <a href="https://sites.google.com/view/zeke-xie">Prof. Zeke Xie</a>. I am currently a research intern at <a href="https://research.nvidia.com/labs/eai/">NVIDIA Research</a> supervised by <a href="https://xieenze.github.io/">Dr. Enze Xie</a> and <a href="https://hanlab.mit.edu/songhan">Prof. Song Han</a>. I was once very fortunate to be a visiting student at <strong>Westlake University</strong>, advised by <a href="https://huanwang.tech">Prof. Huan Wang</a>. My research focuses on <span class="primary-gradient-text">Efficient Generative AI</span> and <span class="primary-gradient-text">MLSys</span>.</p>
-  <div class="home-hero__actions">
-    <a class="home-hero__button home-hero__button--primary" href="https://scholar.google.com/citations?user=okgdNU4AAAAJ"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a>
-    <a class="home-hero__button" href="https://github.com/hp-l33"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
-    <a class="home-hero__button" href="mailto:haopeng.l33@foxmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
-  </div>
+  <p class="home-hero__intro">I am an M.Phil. student at <span class="about-highlight">HKUST(GZ)</span>, advised by <a href="https://sites.google.com/view/zeke-xie">Prof. Zeke Xie</a>. I am currently a research intern at <a href="https://research.nvidia.com/labs/eai/">NVIDIA Research</a> supervised by <a href="https://xieenze.github.io/">Dr. Enze Xie</a> and <a href="https://hanlab.mit.edu/songhan">Prof. Song Han</a>. I was once very fortunate to be a visiting student at <span class="about-highlight">Westlake University</span>, advised by <a href="https://huanwang.tech">Prof. Huan Wang</a>. My research focuses on <span class="about-highlight">Efficient Generative AI</span> and <span class="about-highlight">MLSys</span>.</p>
 </section>
 
 

@@ -19,7 +19,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is <span class="accent-text">Haopeng Li</span>. I am an M.Phil. student at **HKUST(GZ)**, advised by Prof. <a href="https://sites.google.com/view/zeke-xie">Zeke Xie</a>. I was once very fortunate to be a visiting student at **Westlake University**, advised by Prof. <a href="https://huanwang.tech">Huan Wang</a>. My research focuses on <span class="primary-gradient-text">Efficient Generative AI</span> and <span class="primary-gradient-text">MLSys</span>.
+My name is <span class="accent-text">Haopeng Li</span>. I am an M.Phil. student at **HKUST(GZ)**, advised by Prof. <a href="https://sites.google.com/view/zeke-xie">Zeke Xie</a>. I am currently a research intern at [NVIDIA Research](https://research.nvidia.com/labs/eai/) supervised by [Dr. Enze Xie](https://xieenze.github.io/) and [Prof. Song Han](https://hanlab.mit.edu/songhan). I was once very fortunate to be a visiting student at **Westlake University**, advised by Prof. <a href="https://huanwang.tech">Huan Wang</a>. My research focuses on <span class="primary-gradient-text">Efficient Generative AI</span> and <span class="primary-gradient-text">MLSys</span>.
 
 
 <span class='anchor' id='-news'></span>
@@ -37,8 +37,40 @@ My name is <span class="accent-text">Haopeng Li</span>. I am an M.Phil. student 
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
+    <div class="badge pulse-accent" style="text-transform: none;">Technical Report</div>
+    <img src='images/titlepage_sol.png' alt="Sol Video Inference Engine" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>Sol Video Inference Engine: Agent-Native Full-Stack Acceleration Framework for Efficient Video Generation</h3>
+    <div class="authors">Yitong Li, Junsong Chen, <span class="accent-text">Haopeng Li</span>, Haozhe Liu, Jincheng Yu, Ligeng Zhu, Ping Luo, Song Han, Enze Xie</div>
+    <div class="venue">Technical Report</div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2606.23743" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="https://github.com/NVlabs/Sana/tree/sol-engine" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent" style="text-transform: none;">Technical Report</div>
+    <img src='images/titlepage_mainecoon.png' alt="MaineCoon" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>MaineCoon: Pursuing A Real-Time Audio-Visual Social World Model</h3>
+    <div class="authors">Catnip AI Team (including <span class="accent-text">Haopeng Li</span>)</div>
+    <div class="venue">Technical Report</div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2606.17800" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="https://github.com/catnip-ai-tech/MaineCoon" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
     <div class="badge pulse-accent">ICLR 2026</div>
-    <img src='images/titlepage_arpg.png' alt="ARPG Architecture" width="100%">
+    <img src='ARPG/assets/overview.png' alt="ARPG Architecture" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>Autoregressive Image Generation with Randomized Parallel Decoding</h3>
@@ -46,7 +78,7 @@ My name is <span class="accent-text">Haopeng Li</span>. I am an M.Phil. student 
     <div class="venue">The 14th International Conference on Learning Representations (ICLR 2026)</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2503.10568" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-      <!-- <a href="/ARPG/" class="btn-accent"><i class="fas fa-globe"></i> Website</a> -->
+      <a href="/ARPG/" class="btn-accent"><i class="fas fa-globe"></i> Website</a>
       <a href="https://github.com/hp-l33/ARPG" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
@@ -74,7 +106,7 @@ My name is <span class="accent-text">Haopeng Li</span>. I am an M.Phil. student 
     <img src='images/titlepage_live.png' alt="LIVE Overview" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3>Lightning Unified Video Editing via In-Context Sparse Attention</h3>
+    <h3>LIVEditor-14B: Lightning Unified Video Editing via In-Context Sparse Attention</h3>
     <div class="authors">Shitong Shao, Zikai Zhou, <span class="accent-text">Haopeng Li</span>, Yingwei Song, Wenliang Zhong, Lichen Bai, Zeke Xie</div>
     <div class="venue">The 43rd International Conference on Machine Learning (ICML 2026)</div>
     <div class="links">

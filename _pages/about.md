@@ -41,6 +41,23 @@ redirect_from:
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent" style="text-transform: none;">Technical Report</div>
+    <img src='images/titlepage_sol_attn.png' alt="Sol-Attn overview" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>Sol-Attn: Accelerating Video Generation Inference via On-the-Fly Attention Sparsification</h3>
+    <div class="authors"><span class="accent-text">Haopeng Li</span>, Yitong Li, Junsong Chen, Tian Ye, Haozhe Liu, Jincheng Yu, Duomin Wang, Ruihua Zhang, Zeke Xie, Enze Xie, Song Han</div>
+    <div class="venue">Technical Report</div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2607.24027" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="https://nvlabs.github.io/Sana/Sol-Attn/" class="btn-accent"><i class="fas fa-globe"></i> Website</a>
+      <a href="https://github.com/NVlabs/Sana/tree/sol-engine" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent" style="text-transform: none;">Technical Report</div>
     <img src='images/titlepage_sol.png' alt="Sol Video Inference Engine" width="100%">
   </div>
   <div class='paper-box-text'>

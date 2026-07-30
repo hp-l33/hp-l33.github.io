@@ -1287,6 +1287,7 @@ body {
   --editorial-gold: #d49b38;
   --editorial-link: #b56c4d;
   --editorial-link-hover: #8f4f36;
+  --editorial-highlight: #c94b3a;
   --editorial-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
   --editorial-sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
@@ -1411,9 +1412,9 @@ body a:hover,
   color: var(--editorial-ink);
   border-bottom: 1px solid var(--editorial-line);
   font-family: var(--editorial-serif);
-  font-size: clamp(1.85rem, 3.2vw, 2.8rem);
-  font-weight: 500;
-  letter-spacing: -0.055em;
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: -0.035em;
   line-height: 1;
 }
 
@@ -1421,7 +1422,7 @@ body a:hover,
   content: "";
   display: inline-block;
   position: static;
-  width: 2.8rem;
+  width: 2.1rem;
   height: 3px;
   margin: 0;
   flex: 0 0 auto;
@@ -1502,7 +1503,7 @@ body a:hover,
 .home-hero__intro a,
 .home-hero__intro a:visited,
 .about-highlight {
-  color: var(--editorial-link) !important;
+  color: var(--editorial-highlight) !important;
   font-weight: 400;
   text-decoration: none !important;
 }
@@ -1998,7 +1999,7 @@ body a:hover,
 
   .page__content > h1 {
     margin-top: 3rem;
-    font-size: 1.95rem;
+    font-size: 1.7rem;
   }
 
   .page__content > h1::before {
@@ -2060,7 +2061,8 @@ body a:hover,
     width: 76px;
   }
 
-  .sidebar .author__name {
+  .sidebar .author__name,
+  .page__content > h1 {
     font-size: 1.4rem;
   }
 
@@ -2158,23 +2160,23 @@ body a:hover,
 
 .publication-list .paper-box-text h3 {
   margin: 0 0 0.42rem;
-  font-family: var(--editorial-sans);
+  font-family: var(--editorial-serif);
   font-size: clamp(1rem, 1.45vw, 1.22rem);
-  font-weight: 680;
+  font-weight: 600;
   letter-spacing: -0.025em;
   line-height: 1.28;
 }
 
 .publication-list .paper-box-text .authors {
   margin: 0;
-  font-family: var(--editorial-sans);
+  font-family: var(--editorial-serif);
   font-size: 0.79rem;
   letter-spacing: -0.008em;
   line-height: 1.5;
 }
 
 .publication-list .accent-text {
-  color: var(--editorial-link) !important;
+  color: var(--editorial-highlight) !important;
   font-weight: 650;
 }
 
@@ -2232,6 +2234,12 @@ body a:hover,
   font-weight: 650;
   letter-spacing: 0.025em;
   text-align: right;
+}
+
+.project-list .paper-box,
+.project-list .floating-card,
+.project-list .paper-box.floating-card {
+  grid-template-columns: minmax(190px, 21%) minmax(0, 1fr);
 }
 
 @media (max-width: 760px) {

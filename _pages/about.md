@@ -183,21 +183,24 @@ redirect_from:
 <span class='anchor' id='-projects'></span>
 # Projects
 
+<div class="publication-list project-list">
+
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent" style="text-transform: none;">FLA</div>
-    <img src='images/titlepage_fbla.png' alt="LIVE Overview" width="100%">
+    <img src='images/titlepage_fbla.png' alt="Flash Bidirectional Linear Attention" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>Flash Bidirectional Linear Attention</h3>
-    <div class="authors"><span class="accent-text">Haopeng Li</span></div>
-    <div class="venue">A Triton-Based Library for Efficient Implementations of Bidirectional Linear Attention.</div>
+    <div class="authors"><span class="accent-text">Haopeng Li</span> · A Triton-based library for efficient implementations of bidirectional linear attention.</div>
+    <div class="venue">Open Source</div>
     <div class="links">
       <a href="https://github.com/fla-org/flash-bidirectional-linear-attention" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
 
+</div>
 
 <span class='anchor' id='-awards'></span>
 # Awards

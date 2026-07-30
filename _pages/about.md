@@ -38,6 +38,8 @@ redirect_from:
 <span class='anchor' id='-publications'></span>
 # Publications 
 
+<div class="publication-list">
+
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent" style="text-transform: none;">Technical Report</div>
@@ -53,6 +55,7 @@ redirect_from:
       <a href="https://github.com/NVlabs/Sana/tree/sol-engine" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
+  <span class="paper-year">2026</span>
 </div>
 
 <div class='paper-box floating-card'>
@@ -69,6 +72,7 @@ redirect_from:
       <a href="https://github.com/NVlabs/Sana/tree/sol-engine" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
+  <span class="paper-year">2026</span>
 </div>
 
 <div class='paper-box floating-card'>
@@ -85,6 +89,7 @@ redirect_from:
       <a href="https://github.com/catnip-ai-tech/MaineCoon" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
+  <span class="paper-year">2026</span>
 </div>
 
 <div class='paper-box floating-card'>
@@ -95,13 +100,14 @@ redirect_from:
   <div class='paper-box-text'>
     <h3>Autoregressive Image Generation with Randomized Parallel Decoding</h3>
     <div class="authors"><span class="accent-text">Haopeng Li</span>, Jinyue Yang, Guoqi Li, Huan Wang</div>
-    <div class="venue">The 14th International Conference on Learning Representations (ICLR 2026)</div>
+    <div class="venue">ICLR 2026</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2503.10568" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
       <a href="/ARPG/" class="btn-accent"><i class="fas fa-globe"></i> Website</a>
       <a href="https://github.com/hp-l33/ARPG" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
+  <span class="paper-year">2026</span>
 </div>
 
 <div class='paper-box floating-card'>
@@ -118,6 +124,7 @@ redirect_from:
       <a href="https://github.com/xie-lab-ml/piecewise-sparse-attention" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
+  <span class="paper-year">2026</span>
 </div>
 
 <div class='paper-box floating-card'>
@@ -128,12 +135,13 @@ redirect_from:
   <div class='paper-box-text'>
     <h3>LIVEditor-14B: Lightning Unified Video Editing via In-Context Sparse Attention</h3>
     <div class="authors">Shitong Shao, Zikai Zhou, <span class="accent-text">Haopeng Li</span>, Yingwei Song, Wenliang Zhong, Lichen Bai, Zeke Xie</div>
-    <div class="venue">The 43rd International Conference on Machine Learning (ICML 2026)</div>
+    <div class="venue">ICML 2026</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2605.04569" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
       <a href="https://github.com/xie-lab-ml/LIVEditor/tree/main" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
+  <span class="paper-year">2026</span>
 </div>
 
 <div class='paper-box floating-card'>
@@ -150,6 +158,7 @@ redirect_from:
       <a href="https://github.com/hp-l33/AiM" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
+  <span class="paper-year">2024</span>
 </div>
 
 <div class='paper-box floating-card'>
@@ -160,14 +169,16 @@ redirect_from:
   <div class='paper-box-text'>
     <h3>Can Large Language Models Analyze Graphs like Professionals? A Benchmark, Datasets and Models</h3>
     <div class="authors">Xin Li, Weize Chen, Qizhi Chu, <span class="accent-text">Haopeng Li</span>, Zhaojun Sun, Ran Li, Chen Qian, Yiwei Wei, Zhiyuan Liu, Chuan Shi, Maosong Sun, Cheng Yang</div>
-    <div class="venue">The 38th Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</div>
+    <div class="venue">NeurIPS 2024</div>
     <div class="links">
       <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/ff417c3993894694e88ffc4d3f53d28b-Abstract-Datasets_and_Benchmarks_Track.html" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
       <a href="https://github.com/BUPT-GAMMA/ProGraph" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
+  <span class="paper-year">2024</span>
 </div>
 
+</div>
 
 <span class='anchor' id='-projects'></span>
 # Projects

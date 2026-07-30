@@ -55,7 +55,6 @@ redirect_from:
       <a href="https://github.com/NVlabs/Sana/tree/sol-engine" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
-  <span class="paper-year">2026</span>
 </div>
 
 <div class='paper-box floating-card'>
@@ -72,7 +71,6 @@ redirect_from:
       <a href="https://github.com/NVlabs/Sana/tree/sol-engine" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
-  <span class="paper-year">2026</span>
 </div>
 
 <div class='paper-box floating-card'>
@@ -89,7 +87,6 @@ redirect_from:
       <a href="https://github.com/catnip-ai-tech/MaineCoon" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
-  <span class="paper-year">2026</span>
 </div>
 
 <div class='paper-box floating-card'>
@@ -107,7 +104,6 @@ redirect_from:
       <a href="https://github.com/hp-l33/ARPG" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
-  <span class="paper-year">2026</span>
 </div>
 
 <div class='paper-box floating-card'>
@@ -124,7 +120,6 @@ redirect_from:
       <a href="https://github.com/xie-lab-ml/piecewise-sparse-attention" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
-  <span class="paper-year">2026</span>
 </div>
 
 <div class='paper-box floating-card'>
@@ -141,7 +136,6 @@ redirect_from:
       <a href="https://github.com/xie-lab-ml/LIVEditor/tree/main" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
-  <span class="paper-year">2026</span>
 </div>
 
 <div class='paper-box floating-card'>
@@ -158,7 +152,6 @@ redirect_from:
       <a href="https://github.com/hp-l33/AiM" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
-  <span class="paper-year">2024</span>
 </div>
 
 <div class='paper-box floating-card'>
@@ -175,7 +168,6 @@ redirect_from:
       <a href="https://github.com/BUPT-GAMMA/ProGraph" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
-  <span class="paper-year">2024</span>
 </div>
 
 </div>

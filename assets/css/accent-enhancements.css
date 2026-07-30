@@ -1504,7 +1504,7 @@ body a:hover,
 .home-hero__intro a:visited,
 .about-highlight {
   color: var(--editorial-highlight) !important;
-  font-weight: 400;
+  font-weight: 650;
   text-decoration: none !important;
 }
 
@@ -2097,7 +2097,7 @@ body a:hover,
 .publication-list .floating-card,
 .publication-list .paper-box.floating-card {
   display: grid !important;
-  grid-template-columns: minmax(190px, 21%) minmax(0, 1fr) 3.25rem;
+  grid-template-columns: minmax(190px, 21%) minmax(0, 1fr);
   column-gap: clamp(1.1rem, 2.1vw, 1.7rem);
   align-items: center;
   min-height: 158px;
@@ -2177,7 +2177,7 @@ body a:hover,
 
 .publication-list .accent-text {
   color: var(--editorial-highlight) !important;
-  font-weight: 650;
+  font-weight: 700;
 }
 
 .publication-list .paper-box-text .venue {
@@ -2194,7 +2194,6 @@ body a:hover,
   font-weight: 750;
   letter-spacing: 0.055em;
   line-height: 1.5;
-  text-transform: uppercase;
 }
 
 .publication-list .paper-box-text .links {
@@ -2225,21 +2224,6 @@ body a:hover,
   color: var(--editorial-link-hover) !important;
   background: rgba(181, 108, 77, 0.08);
   border-color: rgba(181, 108, 77, 0.58);
-}
-
-.publication-list .paper-year {
-  align-self: center;
-  color: rgba(101, 112, 106, 0.56) !important;
-  font-size: 0.78rem;
-  font-weight: 650;
-  letter-spacing: 0.025em;
-  text-align: right;
-}
-
-.project-list .paper-box,
-.project-list .floating-card,
-.project-list .paper-box.floating-card {
-  grid-template-columns: minmax(190px, 21%) minmax(0, 1fr);
 }
 
 @media (max-width: 760px) {
@@ -2279,11 +2263,6 @@ body a:hover,
     font-size: 1.02rem;
   }
 
-  .publication-list .paper-year {
-    justify-self: start;
-    font-size: 0.7rem;
-    text-align: left;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {

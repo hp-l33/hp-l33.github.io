@@ -75,16 +75,16 @@ redirect_from:
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent" style="text-transform: none;">Technical Report</div>
-    <img src='images/titlepage_mainecoon.png' alt="MaineCoon" width="100%">
+    <div class="badge pulse-accent">Preprint</div>
+    <img src='images/titlepage_pisa.jpg' alt="PISA Overview" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3>MaineCoon: Pursuing A Real-Time Audio-Visual Social World Model</h3>
-    <div class="authors">Catnip AI Team (including <span class="accent-text">Haopeng Li</span>)</div>
-    <div class="venue">Technical Report</div>
+    <h3>PISA: Piecewise Sparse Attention Is Wiser for Efficient Diffusion Transformers</h3>
+    <div class="authors"><span class="accent-text">Haopeng Li</span>, Shitong Shao, Wenliang Zhong, Zikai Zhou, Lichen Bai, Hui Xiong, Zeke Xie</div>
+    <div class="venue">Under Review</div>
     <div class="links">
-      <a href="https://arxiv.org/abs/2606.17800" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="https://github.com/catnip-ai-tech/MaineCoon" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+      <a href="https://arxiv.org/abs/2602.01077" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="https://github.com/xie-lab-ml/piecewise-sparse-attention" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
@@ -108,16 +108,16 @@ redirect_from:
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">Preprint</div>
-    <img src='images/titlepage_pisa.jpg' alt="PISA Overview" width="100%">
+    <div class="badge pulse-accent" style="text-transform: none;">Technical Report</div>
+    <img src='images/titlepage_mainecoon.png' alt="MaineCoon" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3>PISA: Piecewise Sparse Attention Is Wiser for Efficient Diffusion Transformers</h3>
-    <div class="authors"><span class="accent-text">Haopeng Li</span>, Shitong Shao, Wenliang Zhong, Zikai Zhou, Lichen Bai, Hui Xiong, Zeke Xie</div>
-    <div class="venue">Under Review</div>
+    <h3>MaineCoon: Pursuing A Real-Time Audio-Visual Social World Model</h3>
+    <div class="authors">Catnip AI Team (including <span class="accent-text">Haopeng Li</span>)</div>
+    <div class="venue">Technical Report</div>
     <div class="links">
-      <a href="https://arxiv.org/abs/2602.01077" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="https://github.com/xie-lab-ml/piecewise-sparse-attention" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+      <a href="https://arxiv.org/abs/2606.17800" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="https://github.com/catnip-ai-tech/MaineCoon" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>

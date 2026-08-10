@@ -1492,7 +1492,7 @@ body a:hover,
 }
 
 .home-hero__intro {
-  max-width: 880px;
+  max-width: none;
   margin: 0 !important;
   color: #46524c;
   font-family: var(--editorial-serif);

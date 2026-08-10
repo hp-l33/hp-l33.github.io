@@ -21,7 +21,7 @@ redirect_from:
 
 <section class="home-hero">
   <div class="home-hero__eyebrow"><span></span> Efficient Generative AI · MLSys</div>
-  <p class="home-hero__intro">I am an M.Phil. student at <span class="about-highlight">HKUST(GZ)</span>, advised by <a href="https://sites.google.com/view/zeke-xie">Prof. Zeke Xie</a>. I am currently a research intern at <a href="https://research.nvidia.com/labs/eai/">NVIDIA Research</a> supervised by <a href="https://xieenze.github.io/">Dr. Enze Xie</a>. I was once very fortunate to be a visiting student at <span class="about-highlight">Westlake University</span>, advised by <a href="https://huanwang.tech">Prof. Huan Wang</a>. My research focuses on <span class="about-highlight">Efficient Generative AI</span> and <span class="about-highlight">MLSys</span>.</p>
+  <p class="home-hero__intro">I am an M.Phil. student at <span class="about-highlight">HKUST(GZ)</span>, advised by <a href="https://sites.google.com/view/zeke-xie">Prof. Zeke Xie</a>. I am currently a research intern at <a href="https://research.nvidia.com/labs/eai/">NVIDIA Research</a> supervised by <a href="https://xieenze.github.io/">Enze Xie</a>. I was once very fortunate to be a visiting student at <span class="about-highlight">Westlake University</span>, advised by <a href="https://huanwang.tech">Prof. Huan Wang</a>. My research focuses on <span class="about-highlight">Efficient Generative AI</span> and <span class="about-highlight">MLSys</span>.</p>
 </section>
 
 

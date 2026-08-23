@@ -35,6 +35,57 @@ redirect_from:
 - *2024.07 - 2024.12*: &nbsp;Intern, **Huawei 2012 Lab**. -->
 
 
+<span class='anchor' id='-projects'></span>
+<h1 class="project-section-title">Projects</h1>
+
+<div class="project-showcase">
+
+  <article class="project-card project-card--fla">
+    <div class="project-card__org">
+      <img src="images/project-fla-logo.png" alt="FLA logo" class="project-card__logo project-card__logo--fla">
+      <span class="project-card__org-name">FLA</span>
+      <span class="project-card__org-separator">/</span>
+      <span>Open-source systems</span>
+    </div>
+    <h3><a href="https://github.com/fla-org/flash-bidirectional-linear-attention">Flash Bidirectional Linear Attention</a></h3>
+    <p>Reusable Triton kernels for bidirectional (non-causal) linear attention, with optimized forward/backward paths and integrations spanning LinFusion, MLLA, PolaFormer, RALA, and PISA.</p>
+    <div class="project-card__footer">
+      <div class="project-card__metrics">
+        <span>Triton</span>
+        <span>5 model families</span>
+      </div>
+      <div class="project-card__links">
+        <a href="https://github.com/fla-org/flash-bidirectional-linear-attention">Code <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/fla-org/flash-bidirectional-linear-attention#benchmarks">Benchmarks <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </article>
+
+  <article class="project-card project-card--sol">
+    <div class="project-card__org">
+      <img src="images/project-sol-engine-logo.png" alt="Sol-Engine logo" class="project-card__logo project-card__logo--sol">
+      <span class="project-card__org-name">SANA</span>
+      <span class="project-card__org-separator">/</span>
+      <span>Video inference</span>
+    </div>
+    <h3><a href="https://github.com/NVlabs/Sana/tree/sol-engine">Sol Video Inference Engine</a></h3>
+    <p>An agent-native, full-stack video diffusion inference system that composes five reusable acceleration techniques across 10+ model stacks, reaching 2–5× typical speedups and up to 27.7× in its latest draft–refine pipeline.</p>
+    <div class="project-card__footer">
+      <div class="project-card__metrics">
+        <span>10+ model stacks</span>
+        <span>Up to 27.7×</span>
+      </div>
+      <div class="project-card__links">
+        <a href="https://nvlabs.github.io/Sana/Sol-Engine/docs/">Docs <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/NVlabs/Sana/tree/sol-engine">Code <span aria-hidden="true">↗</span></a>
+        <a href="https://arxiv.org/abs/2606.23743">Paper <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </article>
+
+</div>
+
+
 <span class='anchor' id='-publications'></span>
 # Publications 
 
@@ -52,22 +103,6 @@ redirect_from:
     <div class="links">
       <a href="https://arxiv.org/abs/2607.24027" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
       <a href="https://nvlabs.github.io/Sana/Sol-Attn/" class="btn-accent"><i class="fas fa-globe"></i> Website</a>
-      <a href="https://github.com/NVlabs/Sana/tree/sol-engine" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent" style="text-transform: none;">Technical Report</div>
-    <img src='images/titlepage_sol.png' alt="Sol Video Inference Engine" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>Sol Video Inference Engine: Agent-Native Full-Stack Acceleration Framework for Efficient Video Generation</h3>
-    <div class="authors">Yitong Li, Junsong Chen, <span class="accent-text">Haopeng Li</span>, Haozhe Liu, Jincheng Yu, Ligeng Zhu, Ping Luo, Song Han, Enze Xie</div>
-    <div class="venue">Technical Report</div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2606.23743" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
       <a href="https://github.com/NVlabs/Sana/tree/sol-engine" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
@@ -166,28 +201,6 @@ redirect_from:
     <div class="links">
       <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/ff417c3993894694e88ffc4d3f53d28b-Abstract-Datasets_and_Benchmarks_Track.html" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
       <a href="https://github.com/BUPT-GAMMA/ProGraph" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-</div>
-
-<span class='anchor' id='-projects'></span>
-# Projects
-
-<div class="publication-list project-list">
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent" style="text-transform: none;">FLA</div>
-    <img src='images/titlepage_fbla.png' alt="Flash Bidirectional Linear Attention" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>Flash Bidirectional Linear Attention</h3>
-    <div class="authors"><span class="accent-text">Haopeng Li</span> · A Triton-based library for efficient implementations of bidirectional linear attention.</div>
-    <div class="venue">Open Source</div>
-    <div class="links">
-      <a href="https://github.com/fla-org/flash-bidirectional-linear-attention" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>

@@ -50,11 +50,9 @@ redirect_from:
         <a href="https://github.com/fla-org/flash-bidirectional-linear-attention">Flash Bidirectional Linear Attention</a>
       </div>
     </div>
-    <p>A Triton library for fast bidirectional linear attention, with reusable kernels and integrations for modern vision models.</p>
-    <div class="project-card__footer">
-      <div class="project-card__links">
-        <a href="https://github.com/fla-org/flash-bidirectional-linear-attention">Code <span aria-hidden="true">↗</span></a>
-      </div>
+    <span class="project-card__action-divider" aria-hidden="true">｜</span>
+    <div class="project-card__links">
+      <a href="https://github.com/fla-org/flash-bidirectional-linear-attention">Code <span aria-hidden="true">↗</span></a>
     </div>
   </article>
 
@@ -68,13 +66,10 @@ redirect_from:
         <a href="https://github.com/NVlabs/Sana/tree/sol-engine">Sol-Engine</a>
       </div>
     </div>
-    <p>An agent-native, full-stack inference engine for accelerating high-resolution video diffusion across 10+ model stacks.</p>
-    <div class="project-card__footer">
-      <div class="project-card__links">
-        <a href="https://github.com/NVlabs/Sana/tree/sol-engine">Code <span aria-hidden="true">↗</span></a>
-        <a href="https://nvlabs.github.io/Sana/Sol-Engine/docs/">Page <span aria-hidden="true">↗</span></a>
-        <a href="https://arxiv.org/abs/2606.23743">Paper <span aria-hidden="true">↗</span></a>
-      </div>
+    <span class="project-card__action-divider" aria-hidden="true">｜</span>
+    <div class="project-card__links">
+      <a href="https://github.com/NVlabs/Sana/tree/sol-engine">Code <span aria-hidden="true">↗</span></a>
+      <a href="https://nvlabs.github.io/Sana/Sol-Engine/docs/">Page <span aria-hidden="true">↗</span></a>
     </div>
   </article>
 

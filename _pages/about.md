@@ -41,43 +41,38 @@ redirect_from:
 <div class="project-showcase">
 
   <article class="project-card project-card--fla">
-    <div class="project-card__org">
+    <div class="project-card__identity">
       <img src="images/project-fla-logo.png" alt="FLA logo" class="project-card__logo project-card__logo--fla">
-      <span class="project-card__org-name">FLA</span>
-      <span class="project-card__org-separator">/</span>
-      <span>Open-source systems</span>
-    </div>
-    <h3><a href="https://github.com/fla-org/flash-bidirectional-linear-attention">Flash Bidirectional Linear Attention</a></h3>
-    <p>Reusable Triton kernels for bidirectional (non-causal) linear attention, with optimized forward/backward paths and integrations spanning LinFusion, MLLA, PolaFormer, RALA, and PISA.</p>
-    <div class="project-card__footer">
-      <div class="project-card__metrics">
-        <span>Triton</span>
-        <span>5 model families</span>
+      <span class="project-card__identity-divider" aria-hidden="true">｜</span>
+      <div class="project-card__name">
+        <span class="project-card__org-name">FLA</span>
+        <span class="project-card__org-separator">/</span>
+        <a href="https://github.com/fla-org/flash-bidirectional-linear-attention">Flash Bidirectional Linear Attention</a>
       </div>
+    </div>
+    <p>A Triton library for fast bidirectional linear attention, with reusable kernels and integrations for modern vision models.</p>
+    <div class="project-card__footer">
       <div class="project-card__links">
         <a href="https://github.com/fla-org/flash-bidirectional-linear-attention">Code <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/fla-org/flash-bidirectional-linear-attention#benchmarks">Benchmarks <span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </article>
 
   <article class="project-card project-card--sol">
-    <div class="project-card__org">
+    <div class="project-card__identity">
       <img src="images/project-sol-engine-logo.png" alt="Sol-Engine logo" class="project-card__logo project-card__logo--sol">
-      <span class="project-card__org-name">SANA</span>
-      <span class="project-card__org-separator">/</span>
-      <span>Video inference</span>
-    </div>
-    <h3><a href="https://github.com/NVlabs/Sana/tree/sol-engine">Sol Video Inference Engine</a></h3>
-    <p>An agent-native, full-stack video diffusion inference system that composes five reusable acceleration techniques across 10+ model stacks, reaching 2–5× typical speedups and up to 27.7× in its latest draft–refine pipeline.</p>
-    <div class="project-card__footer">
-      <div class="project-card__metrics">
-        <span>10+ model stacks</span>
-        <span>Up to 27.7×</span>
+      <span class="project-card__identity-divider" aria-hidden="true">｜</span>
+      <div class="project-card__name">
+        <span class="project-card__org-name">SANA</span>
+        <span class="project-card__org-separator">/</span>
+        <a href="https://github.com/NVlabs/Sana/tree/sol-engine">Sol-Engine</a>
       </div>
+    </div>
+    <p>An agent-native, full-stack inference engine for accelerating high-resolution video diffusion across 10+ model stacks.</p>
+    <div class="project-card__footer">
       <div class="project-card__links">
-        <a href="https://nvlabs.github.io/Sana/Sol-Engine/docs/">Docs <span aria-hidden="true">↗</span></a>
         <a href="https://github.com/NVlabs/Sana/tree/sol-engine">Code <span aria-hidden="true">↗</span></a>
+        <a href="https://nvlabs.github.io/Sana/Sol-Engine/docs/">Page <span aria-hidden="true">↗</span></a>
         <a href="https://arxiv.org/abs/2606.23743">Paper <span aria-hidden="true">↗</span></a>
       </div>
     </div>
@@ -137,6 +132,22 @@ redirect_from:
       <a href="https://arxiv.org/abs/2503.10568" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
       <a href="/ARPG/" class="btn-accent"><i class="fas fa-globe"></i> Website</a>
       <a href="https://github.com/hp-l33/ARPG" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent" style="text-transform: none;">Technical Report</div>
+    <img src='images/titlepage_sol.png' alt="Sol Video Inference Engine" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>Sol Video Inference Engine: Agent-Native Full-Stack Acceleration Framework for Efficient Video Generation</h3>
+    <div class="authors">Yitong Li, Junsong Chen, <span class="accent-text">Haopeng Li</span>, Haozhe Liu, Jincheng Yu, Ligeng Zhu, Ping Luo, Song Han, Enze Xie</div>
+    <div class="venue">Technical Report</div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2606.23743" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="https://github.com/NVlabs/Sana/tree/sol-engine" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>

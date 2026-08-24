@@ -2245,12 +2245,14 @@ body a:hover,
   display: flex;
   flex-wrap: wrap;
   gap: 0.42rem;
-  margin-top: 0.55rem;
+  margin: 0.55rem 0 0;
+  padding: 0;
 }
 
 .publication-list .paper-box-text .btn-accent,
 .publication-list .paper-box-text .btn-accent:visited {
   min-width: 0;
+  margin: 0;
   padding: 0.28rem 0.7rem;
   color: var(--editorial-muted) !important;
   background: rgba(255, 255, 255, 0.42);

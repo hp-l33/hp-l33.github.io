@@ -2882,20 +2882,57 @@ body.accent-border-top {
 }
 
 /* Final interaction refinements. */
-.greedy-nav .visible-links > li > a,
-.greedy-nav .visible-links > li > a:visited {
-  transform: none !important;
-  transition: color 160ms ease !important;
+.greedy-nav {
+  display: flex;
+  justify-content: center;
 }
 
-.greedy-nav .visible-links > li > a:hover {
-  transform: none !important;
-  color: var(--editorial-link) !important;
+.greedy-nav .visible-links {
+  display: flex;
+  width: max-content;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.greedy-nav .visible-links > li {
+  flex: 0 0 auto;
+}
+
+.greedy-nav .visible-links > li > a,
+.greedy-nav .visible-links > li > a:visited,
+.greedy-nav .visible-links > li > a:hover,
+.greedy-nav .visible-links > li > a:focus,
+.greedy-nav .visible-links > li > a:active {
+  box-sizing: border-box;
+  margin: 0.08rem 0.18rem !important;
+  padding: 0.42rem 0.78rem !important;
   background: rgba(245, 245, 247, 0.84) !important;
-  border-color: #d2d2d7 !important;
+  border: 1px solid #d2d2d7 !important;
+  border-radius: 999px;
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.88),
     0 2px 7px rgba(29, 29, 31, 0.035) !important;
+  font-size: 0.72rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0 !important;
+  line-height: normal;
+  text-transform: none !important;
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
+}
+
+.greedy-nav .visible-links > li > a:hover,
+.greedy-nav .visible-links > li > a:focus-visible {
+  transform: none !important;
+  color: var(--editorial-link) !important;
+}
+
+.greedy-nav .visible-links > li > a::before,
+.greedy-nav .visible-links > li > a::after {
+  display: none !important;
+  transform: none !important;
+  transition: none !important;
 }
 
 .author__urls {
@@ -2927,6 +2964,35 @@ body.accent-border-top {
 
 .publication-list {
   gap: 0.65rem;
+}
+
+.project-card__name {
+  font-size: clamp(0.82rem, 0.96vw, 0.96rem);
+}
+
+.project-card__links a,
+.project-card__links a:visited {
+  font-size: 0.68rem;
+}
+
+.publication-list .paper-box-image img,
+.publication-list .paper-box:hover .paper-box-image img {
+  box-sizing: border-box;
+  border: 1px solid #d2d2d7;
+  box-shadow:
+    0 1px 3px rgba(29, 29, 31, 0.065),
+    0 5px 16px rgba(29, 29, 31, 0.055);
+}
+
+.publication-list .paper-box-text .venue,
+.publication-list .paper-box-text .btn-accent,
+.publication-list .paper-box-text .btn-accent:visited {
+  box-sizing: border-box;
+  height: 1.72rem;
+  min-height: 1.72rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 1;
 }
 
 .publication-list .paper-box,

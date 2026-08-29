@@ -2889,8 +2889,9 @@ body.accent-border-top {
 
 .greedy-nav .visible-links {
   display: flex;
-  width: max-content;
+  width: auto;
   margin: 0 auto;
+  padding: 0;
   justify-content: center;
 }
 
@@ -2916,10 +2917,27 @@ body.accent-border-top {
   font-weight: 600 !important;
   letter-spacing: 0 !important;
   line-height: normal;
+  text-align: center;
   text-transform: none !important;
   transform: none !important;
   transition: none !important;
   animation: none !important;
+}
+
+.greedy-nav .visible-links > li:nth-child(1) > a {
+  width: 5rem;
+}
+
+.greedy-nav .visible-links > li:nth-child(2) > a {
+  width: 4.75rem;
+}
+
+.greedy-nav .visible-links > li:nth-child(3) > a {
+  width: 6.1rem;
+}
+
+.greedy-nav .visible-links > li:nth-child(4) > a {
+  width: 4.4rem;
 }
 
 .greedy-nav .visible-links > li > a:hover,

@@ -2880,3 +2880,77 @@ body.accent-border-top {
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
 }
+
+/* Final interaction refinements. */
+.greedy-nav .visible-links > li > a,
+.greedy-nav .visible-links > li > a:visited {
+  transform: none !important;
+  transition: color 160ms ease !important;
+}
+
+.greedy-nav .visible-links > li > a:hover {
+  transform: none !important;
+  color: var(--editorial-link) !important;
+  background: rgba(245, 245, 247, 0.84) !important;
+  border-color: #d2d2d7 !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.88),
+    0 2px 7px rgba(29, 29, 31, 0.035) !important;
+}
+
+.author__urls {
+  gap: 0.4rem;
+  margin-top: 0.85rem;
+}
+
+.author__urls a,
+.author__urls a:visited {
+  min-height: 2rem;
+  padding: 0.34rem 0.5rem;
+  background: rgba(255, 255, 255, 0.42);
+  border-color: rgba(29, 29, 31, 0.11);
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  font-size: 0.67rem;
+  font-weight: 600;
+  transition: color 160ms ease, background-color 160ms ease;
+}
+
+.author__urls a:hover {
+  transform: none;
+  color: var(--editorial-link-hover) !important;
+  background: rgba(255, 255, 255, 0.62);
+  border-color: rgba(29, 29, 31, 0.11);
+  box-shadow: none;
+}
+
+.publication-list {
+  gap: 0.65rem;
+}
+
+.publication-list .paper-box,
+.publication-list .floating-card,
+.publication-list .paper-box.floating-card {
+  background: #fff !important;
+  border: 0 !important;
+  border-radius: 24px;
+  box-shadow: none;
+  transition: transform 180ms ease, background-color 180ms ease, box-shadow 180ms ease;
+}
+
+.publication-list .paper-box:hover,
+.publication-list .floating-card:hover {
+  transform: translateY(-2px);
+  background: #eef4ff !important;
+  border: 0 !important;
+  box-shadow: 0 12px 34px rgba(42, 78, 130, 0.085);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .publication-list .paper-box,
+  .publication-list .floating-card {
+    transform: none !important;
+    transition: none;
+  }
+}

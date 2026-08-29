@@ -2897,6 +2897,7 @@ body.accent-border-top {
 
 .greedy-nav .visible-links > li {
   flex: 0 0 auto;
+  contain: layout;
 }
 
 .greedy-nav .visible-links > li > a,
@@ -2905,8 +2906,12 @@ body.accent-border-top {
 .greedy-nav .visible-links > li > a:focus,
 .greedy-nav .visible-links > li > a:active {
   box-sizing: border-box;
+  position: relative;
+  display: block;
+  height: 1.85rem;
   margin: 0.08rem 0.18rem !important;
-  padding: 0.42rem 0.78rem !important;
+  padding: 0 !important;
+  color: var(--editorial-ink) !important;
   background: rgba(245, 245, 247, 0.84) !important;
   border: 1px solid #d2d2d7 !important;
   border-radius: 999px;
@@ -2919,6 +2924,23 @@ body.accent-border-top {
   line-height: normal;
   text-align: center;
   text-transform: none !important;
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
+}
+
+.greedy-nav .nav-label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: var(--editorial-ink);
+  font: inherit;
+  line-height: 1;
+  pointer-events: none;
   transform: none !important;
   transition: none !important;
   animation: none !important;
@@ -2943,7 +2965,12 @@ body.accent-border-top {
 .greedy-nav .visible-links > li > a:hover,
 .greedy-nav .visible-links > li > a:focus-visible {
   transform: none !important;
-  color: var(--editorial-link) !important;
+  color: var(--editorial-ink) !important;
+}
+
+.greedy-nav .visible-links > li > a:hover .nav-label,
+.greedy-nav .visible-links > li > a:focus-visible .nav-label {
+  color: var(--editorial-link);
 }
 
 .greedy-nav .visible-links > li > a::before,

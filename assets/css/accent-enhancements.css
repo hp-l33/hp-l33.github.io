@@ -2897,7 +2897,6 @@ body.accent-border-top {
 
 .greedy-nav .visible-links > li {
   flex: 0 0 auto;
-  contain: layout;
 }
 
 .greedy-nav .visible-links > li > a,
@@ -2906,71 +2905,37 @@ body.accent-border-top {
 .greedy-nav .visible-links > li > a:focus,
 .greedy-nav .visible-links > li > a:active {
   box-sizing: border-box;
-  position: relative;
-  display: block;
-  height: 1.85rem;
-  margin: 0.08rem 0.18rem !important;
-  padding: 0 !important;
+  display: inline-flex;
+  min-height: 2rem;
+  margin: 0 0.2rem !important;
+  padding: 0.34rem 0.5rem !important;
+  align-items: center;
+  justify-content: center;
   color: var(--editorial-ink) !important;
-  background: rgba(245, 245, 247, 0.84) !important;
-  border: 1px solid #d2d2d7 !important;
+  background: rgba(255, 255, 255, 0.42) !important;
+  border: 1px solid rgba(29, 29, 31, 0.11) !important;
   border-radius: 999px;
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.88),
-    0 2px 7px rgba(29, 29, 31, 0.035) !important;
-  font-size: 0.72rem !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  font-size: 0.67rem !important;
   font-weight: 600 !important;
   letter-spacing: 0 !important;
-  line-height: normal;
+  line-height: 1.2;
   text-align: center;
   text-transform: none !important;
   transform: none !important;
-  transition: none !important;
+  transition: color 160ms ease, background-color 160ms ease !important;
   animation: none !important;
-}
-
-.greedy-nav .nav-label {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  color: var(--editorial-ink);
-  font: inherit;
-  line-height: 1;
-  pointer-events: none;
-  transform: none !important;
-  transition: none !important;
-  animation: none !important;
-}
-
-.greedy-nav .visible-links > li:nth-child(1) > a {
-  width: 5rem;
-}
-
-.greedy-nav .visible-links > li:nth-child(2) > a {
-  width: 4.75rem;
-}
-
-.greedy-nav .visible-links > li:nth-child(3) > a {
-  width: 6.1rem;
-}
-
-.greedy-nav .visible-links > li:nth-child(4) > a {
-  width: 4.4rem;
 }
 
 .greedy-nav .visible-links > li > a:hover,
 .greedy-nav .visible-links > li > a:focus-visible {
   transform: none !important;
-  color: var(--editorial-ink) !important;
-}
-
-.greedy-nav .visible-links > li > a:hover .nav-label,
-.greedy-nav .visible-links > li > a:focus-visible .nav-label {
-  color: var(--editorial-link);
+  color: var(--editorial-link-hover) !important;
+  background: rgba(255, 255, 255, 0.62) !important;
+  border-color: rgba(29, 29, 31, 0.11) !important;
+  box-shadow: none !important;
 }
 
 .greedy-nav .visible-links > li > a::before,

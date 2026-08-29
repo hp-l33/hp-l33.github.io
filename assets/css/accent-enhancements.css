@@ -2904,6 +2904,7 @@ body.accent-border-top {
 .greedy-nav .visible-links > li > a:hover,
 .greedy-nav .visible-links > li > a:focus,
 .greedy-nav .visible-links > li > a:active {
+  --nav-text-paint: var(--editorial-ink);
   box-sizing: border-box;
   display: inline-flex;
   min-height: 2rem;
@@ -2911,7 +2912,9 @@ body.accent-border-top {
   padding: 0.34rem 0.5rem !important;
   align-items: center;
   justify-content: center;
-  color: var(--editorial-ink) !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+  text-shadow: 0 0 0 var(--nav-text-paint);
   background: rgba(255, 255, 255, 0.42) !important;
   border: 1px solid rgba(29, 29, 31, 0.11) !important;
   border-radius: 999px;
@@ -2925,15 +2928,17 @@ body.accent-border-top {
   text-align: center;
   text-transform: none !important;
   transform: none !important;
-  transition: color 160ms ease, background-color 160ms ease !important;
+  transition: none !important;
   animation: none !important;
 }
 
 .greedy-nav .visible-links > li > a:hover,
 .greedy-nav .visible-links > li > a:focus-visible {
+  --nav-text-paint: var(--editorial-link-hover);
   transform: none !important;
-  color: var(--editorial-link-hover) !important;
-  background: rgba(255, 255, 255, 0.62) !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+  background: rgba(255, 255, 255, 0.42) !important;
   border-color: rgba(29, 29, 31, 0.11) !important;
   box-shadow: none !important;
 }

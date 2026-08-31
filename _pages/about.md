@@ -195,22 +195,6 @@ redirect_from:
   </div>
 </div>
 
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent" style="text-transform: none;">NeurIPS 2024</div>
-    <img src='images/titlepage_graph.png' alt="LIVE Overview" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>Can Large Language Models Analyze Graphs like Professionals? A Benchmark, Datasets and Models</h3>
-    <div class="authors">Xin Li, Weize Chen, Qizhi Chu, <span class="accent-text">Haopeng Li</span>, Zhaojun Sun, Ran Li, Chen Qian, Yiwei Wei, Zhiyuan Liu, Chuan Shi, Maosong Sun, Cheng Yang</div>
-    <div class="venue">NeurIPS 2024</div>
-    <div class="links">
-      <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/ff417c3993894694e88ffc4d3f53d28b-Abstract-Datasets_and_Benchmarks_Track.html" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-      <a href="https://github.com/BUPT-GAMMA/ProGraph" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
 </div>
 
 <span class='anchor' id='-awards'></span>

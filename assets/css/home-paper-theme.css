@@ -1,12 +1,11 @@
 /* Homepage-only visual skin inspired by Sol-H3-Spark's light edition:
    https://nvlabs.github.io/Sana/Sol-Engine/Sol-H3-Spark/
    Retain the existing layout, serif typography, content and navigation.
-   Bright green is reserved for accents; small text uses the reference's
-   deeper green for readable contrast on paper and light panels. */
+   Highlight text matches the reference hero's bright-green 56s value. */
 :root {
   color-scheme: light;
   --spark-green: #84b736;
-  --spark-green-text: #4f6c43;
+  --spark-green-text: var(--spark-green);
   --spark-green-dark: #385132;
   --spark-green-soft: #e5eadb;
   --editorial-paper: #f0efeb;

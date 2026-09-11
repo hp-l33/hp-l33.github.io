@@ -1,3 +1,20 @@
+## Haopeng Li's homepage
+
+The homepage uses an independent Jekyll layout inspired by the paper-gray,
+charcoal, and fine-rule editorial style of
+[Lieflat Charts](https://github.com/larashero3-dotcom/lieflat-charts).
+The layout and styles are original implementations; no chart library is required.
+
+- Biography and awards: `_pages/about.md`
+- Publications, in display order: `_data/publications.yml`
+- Projects: `_data/projects.yml`
+- Profile and contact links: `_config.yml`
+- Homepage layout and styles: `_layouts/research-home.html` and `assets/css/research-home.css`
+
+The homepage does not load the legacy theme CSS or JavaScript. Other pages,
+including the standalone `/ARPG/` project page, retain their existing layouts.
+
+The original template documentation follows.
 
 <h1 align="center">
 AcadHomepage

@@ -1,0 +1,16 @@
+- name: Flash Bidirectional Linear Attention
+  org: FLA
+  logo: /images/project-fla-logo.png
+  logo_alt: FLA
+  url: https://github.com/fla-org/flash-bidirectional-linear-attention
+  links:
+    - {label: Code, url: "https://github.com/fla-org/flash-bidirectional-linear-attention"}
+
+- name: Sol-Engine
+  org: SANA
+  logo: /images/project-sol-engine-logo.png
+  logo_alt: Sol-Engine
+  url: https://github.com/NVlabs/Sana/tree/sol-engine
+  links:
+    - {label: Code, url: "https://github.com/NVlabs/Sana/tree/sol-engine"}
+    - {label: Page, url: "https://nvlabs.github.io/Sana/Sol-Engine/docs/"}

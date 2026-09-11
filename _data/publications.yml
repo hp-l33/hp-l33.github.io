@@ -1,0 +1,72 @@
+- id: sol-attn
+  title: "Sol-Attn: Accelerating Video Generation Inference via On-the-Fly Attention Sparsification"
+  image: /images/titlepage_sol_attn.png
+  image_alt: Sol-Attn overview
+  authors: [Haopeng Li, Yitong Li, Junsong Chen, Tian Ye, Haozhe Liu, Jincheng Yu, Duomin Wang, Ruihua Zhang, Zeke Xie, Enze Xie, Song Han]
+  venue: Technical Report
+  links:
+    - {label: ArXiv, url: "https://arxiv.org/abs/2607.24027"}
+    - {label: Website, url: "https://nvlabs.github.io/Sana/Sol-Attn/"}
+    - {label: Code, url: "https://github.com/NVlabs/Sana/tree/sol-engine"}
+
+- id: pisa
+  title: "PISA: Piecewise Sparse Attention Is Wiser for Efficient Diffusion Transformers"
+  image: /images/titlepage_pisa.jpg
+  image_alt: PISA overview
+  authors: [Haopeng Li, Shitong Shao, Wenliang Zhong, Zikai Zhou, Lichen Bai, Hui Xiong, Zeke Xie]
+  venue: Under Review
+  links:
+    - {label: ArXiv, url: "https://arxiv.org/abs/2602.01077"}
+    - {label: Code, url: "https://github.com/xie-lab-ml/piecewise-sparse-attention"}
+
+- id: arpg
+  title: Autoregressive Image Generation with Randomized Parallel Decoding
+  image: /ARPG/assets/overview.png
+  image_alt: ARPG architecture and generation results
+  authors: [Haopeng Li, Jinyue Yang, Guoqi Li, Huan Wang]
+  venue: ICLR 2026
+  links:
+    - {label: Paper, url: "https://arxiv.org/abs/2503.10568"}
+    - {label: Website, url: /ARPG/}
+    - {label: Code, url: "https://github.com/hp-l33/ARPG"}
+
+- id: sol-engine
+  title: "Sol Video Inference Engine: Agent-Native Full-Stack Acceleration Framework for Efficient Video Generation"
+  image: /images/titlepage_sol.png
+  image_alt: Sol Video Inference Engine
+  authors: [Yitong Li, Junsong Chen, Haopeng Li, Haozhe Liu, Jincheng Yu, Ligeng Zhu, Ping Luo, Song Han, Enze Xie]
+  venue: Technical Report
+  links:
+    - {label: ArXiv, url: "https://arxiv.org/abs/2606.23743"}
+    - {label: Code, url: "https://github.com/NVlabs/Sana/tree/sol-engine"}
+
+- id: mainecoon
+  title: "MaineCoon: Pursuing A Real-Time Audio-Visual Social World Model"
+  image: /images/titlepage_mainecoon.png
+  image_alt: MaineCoon real-time multimodal world model
+  team: Catnip AI Team
+  authors: [Haopeng Li]
+  venue: Technical Report
+  links:
+    - {label: ArXiv, url: "https://arxiv.org/abs/2606.17800"}
+    - {label: Code, url: "https://github.com/catnip-ai-tech/MaineCoon"}
+
+- id: liveditor
+  title: "LIVEditor-14B: Lightning Unified Video Editing via In-Context Sparse Attention"
+  image: /images/titlepage_live.png
+  image_alt: LIVEditor video editing overview
+  authors: [Shitong Shao, Zikai Zhou, Haopeng Li, Yingwei Song, Wenliang Zhong, Lichen Bai, Zeke Xie]
+  venue: ICML 2026
+  links:
+    - {label: ArXiv, url: "https://arxiv.org/abs/2605.04569"}
+    - {label: Code, url: "https://github.com/xie-lab-ml/LIVEditor/tree/main"}
+
+- id: aim
+  title: Scalable Autoregressive Image Generation with Mamba
+  image: /images/titlepage_aim.png
+  image_alt: AiM autoregressive image generation overview
+  authors: [Haopeng Li, Jinyue Yang, Kexin Wang, Xuerui Qiu, Yuhong Chou, Xin Li, Guoqi Li]
+  venue: Preprint
+  links:
+    - {label: ArXiv, url: "https://arxiv.org/abs/2408.12245"}
+    - {label: Code, url: "https://github.com/hp-l33/AiM"}

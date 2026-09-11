@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.author.name | escape }} — Efficient Generative AI &amp; MLSys</title>
+    <meta name="description" content="Haopeng Li, M.Phil. student at HKUST(GZ) and research intern at NVIDIA Research. Research in efficient generative AI and machine learning systems.">
+    <meta name="theme-color" content="#f0efeb">
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Haopeng Li — Research">
+    <meta property="og:description" content="Efficient generative AI and machine learning systems. Publications and open-source projects by Haopeng Li.">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/research-home.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  </head>
+  <body class="research-home">
+    <a class="skip-link" href="#about-me">Skip to content</a>
+    <header class="site-header">
+      <nav class="home-nav" aria-label="Main navigation">
+        {% for link in site.data.navigation.main %}
+        <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+    </header>
+    <main class="research-sheet">
+      {{ content }}
+    </main>
+    <footer class="home-footer">
+      <span>{{ site.author.name }} <span class="footer-dot" aria-hidden="true">·</span> Research &amp; open source</span>
+      <span>Design inspired by <a href="https://github.com/larashero3-dotcom/lieflat-charts">Lieflat Charts <span aria-hidden="true">↗</span></a></span>
+    </footer>
+  </body>
+</html>

@@ -1,212 +1,98 @@
 ---
+layout: research-home
 permalink: /
-title: ""
-excerpt: ""
-author_profile: true
-redirect_from: 
+title: "Haopeng Li"
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<div class="anchor" id="about-me"></div>
-
-<section class="home-hero">
-  <div class="home-hero__eyebrow"><span></span> Efficient Generative AI · MLSys</div>
-  <p class="home-hero__intro">I am an M.Phil. student at <span class="about-highlight">HKUST(GZ)</span>, advised by <a href="https://sites.google.com/view/zeke-xie">Prof. Zeke Xie</a>. I am currently a research intern at <a href="https://research.nvidia.com/labs/eai/">NVIDIA Research</a> supervised by <a href="https://xieenze.github.io/">Enze Xie</a>. I was previously a visiting student at <span class="about-highlight">Westlake University</span>, advised by <a href="https://huanwang.tech">Prof. Huan Wang</a>. My research focuses on <span class="about-highlight">Efficient Generative AI</span> and <span class="about-highlight">MLSys</span>.</p>
+<section class="profile-section" id="about-me" aria-label="About Haopeng Li">
+  <div class="identity">
+    <div class="identity-portrait">
+      <img src="{{ site.author.avatar | relative_url }}" alt="Haopeng Li's knight avatar" width="460" height="460" fetchpriority="high">
+    </div>
+    <h1>{{ site.author.name }}</h1>
+    <p class="identity-role">{{ site.author.bio }}</p>
+    <div class="identity-links" aria-label="Contact and profiles">
+      <a href="mailto:{{ site.author.email }}">Email <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub <span aria-hidden="true">↗</span></a>
+      <a href="{{ site.author.googlescholar }}">Scholar <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+  <div class="about-panel">
+    <div class="panel-heading"><span>01 / About me</span><span class="status-dot" aria-hidden="true"></span></div>
+    <p>I am an M.Phil. student at <strong>HKUST(GZ)</strong>, advised by <a href="https://sites.google.com/view/zeke-xie">Prof. Zeke Xie</a>. I am currently a research intern at <a href="https://research.nvidia.com/labs/eai/">NVIDIA Research</a> supervised by <a href="https://xieenze.github.io/">Enze Xie</a>.</p>
+    <p>I was previously a visiting student at <strong>Westlake University</strong>, advised by <a href="https://huanwang.tech">Prof. Huan Wang</a>.</p>
+    <div class="research-focus">
+      <span class="small-label">Research focus</span>
+      <span>Efficient Generative AI <span class="focus-divider" aria-hidden="true">/</span> MLSys</span>
+    </div>
+  </div>
 </section>
 
-
-<span class='anchor' id='-news'></span>
-
-
-<!-- <span class='anchor' id='-internships'></span>
-# Experiences
-
-- *2026.02 - 2026.04*: &nbsp;Intern, **ByteDance**.
-- *2024.07 - 2024.12*: &nbsp;Intern, **Huawei 2012 Lab**. -->
-
-
-<span class='anchor' id='-projects'></span>
-<h1 class="project-section-title">Projects</h1>
-
-<div class="project-showcase">
-
-  <article class="project-card project-card--fla">
-    <div class="project-card__identity">
-      <img src="images/project-fla-logo.png" alt="FLA logo" class="project-card__logo project-card__logo--fla">
-      <span class="project-card__identity-divider" aria-hidden="true">｜</span>
-      <div class="project-card__name">
-        <span class="project-card__org-name">FLA</span>
-        <span class="project-card__org-separator">/</span>
-        <a href="https://github.com/fla-org/flash-bidirectional-linear-attention">Flash Bidirectional Linear Attention</a>
+<section class="projects-section" id="-projects" aria-labelledby="projects-heading">
+  <div class="section-heading">
+    <div class="section-title"><span class="section-number">02</span><h2 id="projects-heading">Projects</h2></div>
+    <span class="section-note">Open-source systems</span>
+  </div>
+  <div class="projects-list">
+    {% for project in site.data.projects %}
+    <article class="project-entry">
+      <div class="project-logo"><img src="{{ project.logo | relative_url }}" alt="{{ project.logo_alt | escape }}" width="100" height="40" loading="lazy"></div>
+      <span class="project-divider" aria-hidden="true"></span>
+      <div class="project-name"><span class="project-org">{{ project.org }}</span><span class="project-slash" aria-hidden="true">/</span><a href="{{ project.url }}">{{ project.name }}</a></div>
+      <div class="project-links">
+        {% for link in project.links %}
+        <a href="{{ link.url }}">{{ link.label }} <span aria-hidden="true">↗</span></a>
+        {% endfor %}
       </div>
-    </div>
-    <span class="project-card__action-divider" aria-hidden="true">｜</span>
-    <div class="project-card__links">
-      <a href="https://github.com/fla-org/flash-bidirectional-linear-attention">Code <span aria-hidden="true">↗</span></a>
-    </div>
-  </article>
+    </article>
+    {% endfor %}
+  </div>
+</section>
 
-  <article class="project-card project-card--sol">
-    <div class="project-card__identity">
-      <img src="images/project-sol-engine-logo.png" alt="Sol-Engine logo" class="project-card__logo project-card__logo--sol">
-      <span class="project-card__identity-divider" aria-hidden="true">｜</span>
-      <div class="project-card__name">
-        <span class="project-card__org-name">SANA</span>
-        <span class="project-card__org-separator">/</span>
-        <a href="https://github.com/NVlabs/Sana/tree/sol-engine">Sol-Engine</a>
+<section class="publications-section" id="-publications" aria-labelledby="publications-heading">
+  <div class="section-heading">
+    <div class="section-title"><span class="section-number">03</span><h2 id="publications-heading">Publications</h2><span class="section-count">{% if site.data.publications.size < 10 %}0{% endif %}{{ site.data.publications.size }}</span></div>
+    <nav class="paper-index" aria-label="Jump to a publication">
+      {% for paper in site.data.publications %}
+      <a href="#paper-{{ paper.id }}" aria-label="{{ paper.title | escape }}" title="{{ paper.title | escape }}"><span></span></a>
+      {% endfor %}
+    </nav>
+  </div>
+  <div class="papers-list">
+    {% for paper in site.data.publications %}
+    <article class="paper-entry" id="paper-{{ paper.id }}" aria-labelledby="title-{{ paper.id }}">
+      <span class="paper-number" aria-hidden="true">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+      <a class="paper-cover" href="{{ paper.links.first.url }}" aria-label="View {{ paper.title | escape }}">
+        <img src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt | escape }}" loading="lazy" width="500" height="310">
+      </a>
+      <div class="paper-content">
+        <h3 id="title-{{ paper.id }}"><a href="{{ paper.links.first.url }}">{{ paper.title }}</a></h3>
+        <p class="paper-authors">{% if paper.team %}{{ paper.team }} (including <strong>Haopeng Li</strong>){% else %}{% for author in paper.authors %}{% if author == site.author.name %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}</p>
+        <div class="paper-resources">
+          <span class="paper-venue">{{ paper.venue }}</span>
+          <div class="paper-links" aria-label="Resources for {{ paper.title | escape }}">
+            {% for link in paper.links %}
+            <a href="{{ link.url }}">{{ link.label }} <span aria-hidden="true">↗</span></a>
+            {% endfor %}
+          </div>
+        </div>
       </div>
-    </div>
-    <span class="project-card__action-divider" aria-hidden="true">｜</span>
-    <div class="project-card__links">
-      <a href="https://github.com/NVlabs/Sana/tree/sol-engine">Code <span aria-hidden="true">↗</span></a>
-      <a href="https://nvlabs.github.io/Sana/Sol-Engine/docs/">Page <span aria-hidden="true">↗</span></a>
-    </div>
-  </article>
+    </article>
+    {% endfor %}
+  </div>
+</section>
 
-</div>
-
-
-<span class='anchor' id='-publications'></span>
-# Publications 
-
-<div class="publication-list">
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent" style="text-transform: none;">Technical Report</div>
-    <img src='images/titlepage_sol_attn.png' alt="Sol-Attn overview" width="100%">
+<section class="awards-section" id="-awards" aria-labelledby="awards-heading">
+  <div class="section-heading">
+    <div class="section-title"><span class="section-number">04</span><h2 id="awards-heading">Awards</h2></div>
+    <span class="section-note">Honors &amp; support</span>
   </div>
-  <div class='paper-box-text'>
-    <h3>Sol-Attn: Accelerating Video Generation Inference via On-the-Fly Attention Sparsification</h3>
-    <div class="authors"><span class="accent-text">Haopeng Li</span>, Yitong Li, Junsong Chen, Tian Ye, Haozhe Liu, Jincheng Yu, Duomin Wang, Ruihua Zhang, Zeke Xie, Enze Xie, Song Han</div>
-    <div class="venue">Technical Report</div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2607.24027" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="https://nvlabs.github.io/Sana/Sol-Attn/" class="btn-accent"><i class="fas fa-globe"></i> Website</a>
-      <a href="https://github.com/NVlabs/Sana/tree/sol-engine" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
+  <div class="awards-list">
+    <div class="award-entry"><span class="award-date">2025.09</span><span class="award-name">Postgraduate Studentship</span><span class="award-org">HKUST(GZ)</span></div>
+    <div class="award-entry"><span class="award-date">2021.10</span><span class="award-name">National Scholarship</span><span class="award-org">Ministry of Education</span></div>
   </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">Preprint</div>
-    <img src='images/titlepage_pisa.jpg' alt="PISA Overview" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>PISA: Piecewise Sparse Attention Is Wiser for Efficient Diffusion Transformers</h3>
-    <div class="authors"><span class="accent-text">Haopeng Li</span>, Shitong Shao, Wenliang Zhong, Zikai Zhou, Lichen Bai, Hui Xiong, Zeke Xie</div>
-    <div class="venue">Under Review</div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2602.01077" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="https://github.com/xie-lab-ml/piecewise-sparse-attention" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">ICLR 2026</div>
-    <img src='ARPG/assets/overview.png' alt="ARPG Architecture" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>Autoregressive Image Generation with Randomized Parallel Decoding</h3>
-    <div class="authors"><span class="accent-text">Haopeng Li</span>, Jinyue Yang, Guoqi Li, Huan Wang</div>
-    <div class="venue">ICLR 2026</div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2503.10568" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-      <a href="/ARPG/" class="btn-accent"><i class="fas fa-globe"></i> Website</a>
-      <a href="https://github.com/hp-l33/ARPG" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent" style="text-transform: none;">Technical Report</div>
-    <img src='images/titlepage_sol.png' alt="Sol Video Inference Engine" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>Sol Video Inference Engine: Agent-Native Full-Stack Acceleration Framework for Efficient Video Generation</h3>
-    <div class="authors">Yitong Li, Junsong Chen, <span class="accent-text">Haopeng Li</span>, Haozhe Liu, Jincheng Yu, Ligeng Zhu, Ping Luo, Song Han, Enze Xie</div>
-    <div class="venue">Technical Report</div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2606.23743" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="https://github.com/NVlabs/Sana/tree/sol-engine" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent" style="text-transform: none;">Technical Report</div>
-    <img src='images/titlepage_mainecoon.png' alt="MaineCoon" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>MaineCoon: Pursuing A Real-Time Audio-Visual Social World Model</h3>
-    <div class="authors">Catnip AI Team (including <span class="accent-text">Haopeng Li</span>)</div>
-    <div class="venue">Technical Report</div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2606.17800" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="https://github.com/catnip-ai-tech/MaineCoon" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">ICML 2026</div>
-    <img src='images/titlepage_live.png' alt="LIVE Overview" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>LIVEditor-14B: Lightning Unified Video Editing via In-Context Sparse Attention</h3>
-    <div class="authors">Shitong Shao, Zikai Zhou, <span class="accent-text">Haopeng Li</span>, Yingwei Song, Wenliang Zhong, Lichen Bai, Zeke Xie</div>
-    <div class="venue">ICML 2026</div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2605.04569" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="https://github.com/xie-lab-ml/LIVEditor/tree/main" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">Preprint</div>
-    <img src='images/titlepage_aim.png' alt="LIVE Overview" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>Scalable Autoregressive Image Generation with Mamba</h3>
-    <div class="authors"><span class="accent-text">Haopeng Li</span>, Jinyue Yang, Kexin Wang, Xuerui Qiu, Yuhong Chou, Xin Li, Guoqi Li</div>
-    <div class="venue">Preprint</div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2408.12245" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="https://github.com/hp-l33/AiM" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-</div>
-
-<span class='anchor' id='-awards'></span>
-# Awards
-
-<div class="award-list">
-  <div class="award-item">
-    <span class="award-date">2025.09</span>
-    <span class="award-detail"><strong>Postgraduate Studentship</strong><span>HKUST(GZ)</span></span>
-  </div>
-  <div class="award-item">
-    <span class="award-date">2021.10</span>
-    <span class="award-detail"><strong>National Scholarship</strong><span>Ministry of Education</span></span>
-  </div>
-</div>
+</section>

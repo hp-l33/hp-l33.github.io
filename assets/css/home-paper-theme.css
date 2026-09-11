@@ -1,23 +1,30 @@
-/* Homepage-only visual skin, inspired by Lieflat Charts' Mono palette.
-   https://github.com/larashero3-dotcom/lieflat-charts
-   Keep layout, typography, spacing, content and responsive rules in the
-   existing theme. This file changes only colors and surface treatments. */
+/* Homepage-only visual skin inspired by Sol-H3-Spark's light edition:
+   https://nvlabs.github.io/Sana/Sol-Engine/Sol-H3-Spark/
+   Retain the existing layout, serif typography, content and navigation.
+   Bright green is reserved for accents; small text uses the reference's
+   deeper green for readable contrast on paper and light panels. */
 :root {
+  color-scheme: light;
+  --spark-green: #84b736;
+  --spark-green-text: #4f6c43;
+  --spark-green-dark: #385132;
+  --spark-green-soft: #e5eadb;
   --editorial-paper: #f0efeb;
-  --editorial-paper-deep: #e7e6df;
-  --editorial-ink: #1c1c1a;
+  --editorial-paper-deep: #e9e8e1;
+  --editorial-ink: #1f1e1c;
   --editorial-muted: #6a6963;
-  --editorial-line: #deddd6;
-  --editorial-card: #faf9f6;
-  --editorial-red: #1c1c1a;
-  --editorial-red-deep: #4a4944;
+  --editorial-line: #d4d2cb;
+  --editorial-card: #f7f6f2;
+  --editorial-red: var(--spark-green-text);
+  --editorial-red-deep: var(--spark-green-dark);
   --editorial-teal: #6a6963;
-  --editorial-gold: #8f8e88;
-  --editorial-link: #4a4944;
-  --editorial-link-hover: #1c1c1a;
-  --editorial-highlight: #1c1c1a;
-  --paper-edge: #c6c5bf;
-  --paper-hover: #e7e6df;
+  --editorial-gold: var(--spark-green);
+  --editorial-link: var(--spark-green-text);
+  --editorial-link-hover: var(--spark-green-dark);
+  --editorial-highlight: var(--spark-green-text);
+  --paper-edge: #c5c4ba;
+  --paper-hover: #edf0e6;
+  --paper-hover-edge: #b2c19b;
 }
 
 html,
@@ -31,8 +38,8 @@ body.accent-border-top::before {
 }
 
 ::selection {
-  color: var(--editorial-paper);
-  background: var(--editorial-ink);
+  color: var(--spark-green-dark);
+  background: var(--spark-green-soft);
 }
 
 .masthead {
@@ -50,24 +57,28 @@ body.accent-border-top::before {
 .greedy-nav .visible-links > li > a:active {
   --nav-text-paint: var(--editorial-muted);
   background: transparent !important;
-  border-color: var(--paper-edge) !important;
-  border-radius: 6px;
+  border-color: var(--editorial-line) !important;
+  border-radius: 999px;
 }
 
 .greedy-nav .visible-links > li > a:hover,
 .greedy-nav .visible-links > li > a:focus-visible {
-  --nav-text-paint: var(--editorial-ink);
-  background: var(--paper-hover) !important;
-  border-color: var(--paper-edge) !important;
+  --nav-text-paint: var(--spark-green-dark);
+  background: var(--spark-green-soft) !important;
+  border-color: var(--paper-hover-edge) !important;
 }
 
-.home-hero,
-.project-card {
+.home-hero {
   background: var(--editorial-card);
-  border-radius: 18px;
-  box-shadow: inset 0 0 0 1px var(--editorial-line);
+  border-radius: 24px;
+  box-shadow: none;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
+}
+
+.home-hero__eyebrow span {
+  background: var(--spark-green);
+  box-shadow: 0 0 0 4px rgba(132, 183, 54, 0.10);
 }
 
 .home-hero__intro {
@@ -75,7 +86,7 @@ body.accent-border-top::before {
 }
 
 .home-hero__intro a:hover {
-  color: var(--editorial-muted) !important;
+  color: var(--spark-green-dark) !important;
 }
 
 .primary-gradient-text {
@@ -85,7 +96,7 @@ body.accent-border-top::before {
 .author__avatar,
 .author__avatar img,
 .sidebar .author__avatar img {
-  border-radius: 18px;
+  border-radius: 24px;
   box-shadow: none;
 }
 
@@ -95,25 +106,42 @@ body.accent-border-top::before {
 
 .author__urls a,
 .author__urls a:visited {
-  color: var(--editorial-link);
+  color: #4a4944;
   background: transparent;
-  border-color: var(--paper-edge);
-  border-radius: 6px;
+  border-color: var(--editorial-line);
+  border-radius: 999px;
   box-shadow: none;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
 }
 
 .author__urls a:hover {
-  color: var(--editorial-ink) !important;
-  background: var(--paper-hover);
-  border-color: var(--paper-edge);
+  color: var(--spark-green-dark) !important;
+  background: var(--spark-green-soft);
+  border-color: var(--paper-hover-edge);
   box-shadow: none;
 }
 
-.project-card:hover {
+.page__content > h1::after {
+  content: "";
+  flex: 1 1 0;
+  height: 1px;
+  margin-left: 1.1rem;
+  background: var(--editorial-line);
+}
+
+.project-card {
+  background: var(--editorial-card);
+  border-radius: 14px;
+  box-shadow: inset 0 0 0 1px var(--editorial-line);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.project-card:hover,
+.project-card:focus-within {
   background: var(--paper-hover);
-  box-shadow: inset 0 0 0 1px var(--paper-edge);
+  box-shadow: inset 0 0 0 1px var(--paper-hover-edge);
 }
 
 .project-card__identity-divider,
@@ -126,23 +154,25 @@ body.accent-border-top::before {
 .publication-list .floating-card,
 .publication-list .paper-box.floating-card {
   background: var(--editorial-card) !important;
-  border-radius: 18px;
-  box-shadow: inset 0 0 0 1px var(--editorial-line);
+  border-radius: 24px;
+  box-shadow: inset 0 0 0 1px rgba(212, 210, 203, 0.55);
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
 }
 
 .publication-list .paper-box:hover,
-.publication-list .floating-card:hover {
+.publication-list .floating-card:hover,
+.publication-list .paper-box:focus-within {
   background: var(--paper-hover) !important;
-  box-shadow: inset 0 0 0 1px var(--paper-edge),
-    0 6px 18px rgba(28, 28, 26, 0.055);
+  box-shadow: inset 0 0 0 1px var(--paper-hover-edge),
+    0 6px 18px rgba(53, 77, 56, 0.045);
 }
 
 .publication-list .paper-box-image img,
 .publication-list .paper-box:hover .paper-box-image img {
   border-color: var(--paper-edge);
-  border-radius: 10px;
+  border-radius: 14px;
+  background: #fff;
   box-shadow: none;
 }
 
@@ -150,29 +180,29 @@ body.accent-border-top::before {
   color: var(--editorial-muted) !important;
   background: var(--editorial-paper-deep);
   border-radius: 6px;
-  box-shadow: inset 0 0 0 1px var(--editorial-line);
+  box-shadow: none;
 }
 
 .publication-list .paper-box-text .btn-accent,
 .publication-list .paper-box-text .btn-accent:visited {
-  color: var(--editorial-link) !important;
+  color: #4a4944 !important;
   background: transparent;
-  border-color: var(--paper-edge);
-  border-radius: 6px;
+  border-color: var(--editorial-line);
+  border-radius: 999px;
   box-shadow: none;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
 }
 
 .publication-list .paper-box-text .btn-accent:hover {
-  color: var(--editorial-paper) !important;
-  background: var(--editorial-ink);
-  border-color: var(--editorial-ink);
+  color: var(--spark-green-dark) !important;
+  background: var(--spark-green-soft);
+  border-color: var(--paper-hover-edge);
   box-shadow: none;
 }
 
 .page__footer {
-  background: var(--editorial-paper-deep);
+  background: var(--editorial-paper);
   border-color: var(--editorial-line);
   box-shadow: inset 0 1px 0 var(--editorial-line);
 }
@@ -180,6 +210,18 @@ body.accent-border-top::before {
 .greedy-nav a:focus-visible,
 .author__urls a:focus-visible,
 .page__content a:focus-visible {
-  outline: 2px solid var(--editorial-ink);
+  outline: 2px solid var(--spark-green-text);
   outline-offset: 3px;
+}
+
+@media (max-width: 760px) {
+  .home-hero,
+  .author__avatar,
+  .author__avatar img,
+  .sidebar .author__avatar img,
+  .publication-list .paper-box,
+  .publication-list .floating-card,
+  .publication-list .paper-box.floating-card {
+    border-radius: 18px;
+  }
 }

@@ -84,6 +84,10 @@ body.accent-border-top::before {
   color: #4a4944;
 }
 
+.home-hero__intro .about-highlight {
+  font-weight: 400;
+}
+
 .home-hero__intro a,
 .home-hero__intro a:visited {
   color: var(--editorial-link) !important;
@@ -159,12 +163,10 @@ body.accent-border-top::before {
 }
 
 .project-card__name a,
-.project-card__name a:visited {
-  color: var(--editorial-link);
-}
-
-.project-card__name a:hover {
-  color: var(--editorial-link-hover);
+.project-card__name a:visited,
+.project-card__name a:hover,
+.project-card__name a:focus-visible {
+  color: var(--editorial-ink);
 }
 
 .publication-list .paper-box,

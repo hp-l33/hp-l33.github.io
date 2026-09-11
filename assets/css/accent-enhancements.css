@@ -2899,6 +2899,16 @@ body.accent-border-top {
   flex: 0 0 auto;
 }
 
+/* Keep the list-item wrapper static as well as the link inside it.
+   The generic list hover rule must never move primary navigation. */
+.greedy-nav--static .visible-links > li,
+.greedy-nav--static .visible-links > li:hover,
+.greedy-nav--static .visible-links > li:focus-within {
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
+}
+
 .greedy-nav .visible-links > li > a,
 .greedy-nav .visible-links > li > a:visited,
 .greedy-nav .visible-links > li > a:hover,

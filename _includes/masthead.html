@@ -4,8 +4,14 @@
       <nav class="greedy-nav greedy-nav--static" aria-label="Primary navigation">
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
+            {% assign link_prefix = link.url | slice: 0, 2 %}
+            {% if page.permalink == '/' and link_prefix == '/#' %}
+              {% assign nav_url = link.url | remove_first: '/' %}
+            {% else %}
+              {% assign nav_url = link.url | relative_url %}
+            {% endif %}
             <li class="masthead__menu-item">
-              <a href="{{ domain }}{{ link.url }}">{{ site.t.en[link.title] | default: link.title }}</a>
+              <a href="{{ nav_url }}" target="_self">{{ site.t.en[link.title] | default: link.title }}</a>
             </li>
           {% endfor %}
         </ul>

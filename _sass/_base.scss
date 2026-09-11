@@ -523,7 +523,7 @@
       padding: 0.5rem 0;
       transition: var(--transition);
       
-      &:hover {
+      &:not(.masthead__menu-item):hover {
         transform: translateX(8px);
         color: var(--accent-color);
       }
@@ -543,4 +543,3 @@
       color: var(--accent-color);
     }
   }
-

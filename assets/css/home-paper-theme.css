@@ -1,12 +1,12 @@
-/* Homepage-only visual skin with Lieflat Charts' Porcelain palette:
-   https://github.com/larashero3-dotcom/lieflat-charts/blob/main/color-presets.js
+/* Homepage-only paper skin with Sol-H3-Spark green links and hover states:
+   https://nvlabs.github.io/Sana/Sol-Engine/Sol-H3-Spark/
    Retain the existing paper surfaces, layout, serif typography and navigation. */
 :root {
   color-scheme: light;
-  --theme-accent: #334eac;
+  --theme-accent: #84b736;
   --theme-accent-text: var(--theme-accent);
-  --theme-accent-dark: #081f5c;
-  --theme-accent-soft: #e5ebf6;
+  --theme-accent-dark: #385132;
+  --theme-accent-soft: #e5eadb;
   --editorial-paper: #f0efeb;
   --editorial-paper-deep: #e9e8e1;
   --editorial-ink: #1f1e1c;
@@ -17,12 +17,13 @@
   --editorial-red-deep: var(--theme-accent-dark);
   --editorial-teal: #6a6963;
   --editorial-gold: var(--theme-accent);
+  /* Match the Sol-H3-Spark 56s green; keep non-link highlights black. */
   --editorial-link: var(--theme-accent-text);
   --editorial-link-hover: var(--theme-accent-dark);
   --editorial-highlight: #000000;
   --paper-edge: #c5c4ba;
-  --paper-hover: #edf0f5;
-  --paper-hover-edge: #bad6eb;
+  --paper-hover: #edf0e6;
+  --paper-hover-edge: #b2c19b;
 }
 
 html,
@@ -53,7 +54,7 @@ body.accent-border-top::before {
 .greedy-nav .visible-links > li > a:visited,
 .greedy-nav .visible-links > li > a:focus,
 .greedy-nav .visible-links > li > a:active {
-  --nav-text-paint: var(--editorial-muted);
+  --nav-text-paint: var(--editorial-link);
   background: transparent !important;
   border-color: var(--editorial-line) !important;
   border-radius: 999px;
@@ -61,7 +62,7 @@ body.accent-border-top::before {
 
 .greedy-nav .visible-links > li > a:hover,
 .greedy-nav .visible-links > li > a:focus-visible {
-  --nav-text-paint: var(--theme-accent-dark);
+  --nav-text-paint: var(--editorial-link-hover);
   background: var(--theme-accent-soft) !important;
   border-color: var(--paper-hover-edge) !important;
 }
@@ -76,15 +77,20 @@ body.accent-border-top::before {
 
 .home-hero__eyebrow span {
   background: var(--theme-accent);
-  box-shadow: 0 0 0 4px rgba(51, 78, 172, 0.10);
+  box-shadow: 0 0 0 4px rgba(132, 183, 54, 0.10);
 }
 
 .home-hero__intro {
   color: #4a4944;
 }
 
+.home-hero__intro a,
+.home-hero__intro a:visited {
+  color: var(--editorial-link) !important;
+}
+
 .home-hero__intro a:hover {
-  color: var(--theme-accent-dark) !important;
+  color: var(--editorial-link-hover) !important;
 }
 
 .primary-gradient-text {
@@ -104,7 +110,7 @@ body.accent-border-top::before {
 
 .author__urls a,
 .author__urls a:visited {
-  color: #4a4944;
+  color: var(--editorial-link);
   background: transparent;
   border-color: var(--editorial-line);
   border-radius: 999px;
@@ -114,10 +120,14 @@ body.accent-border-top::before {
 }
 
 .author__urls a:hover {
-  color: var(--theme-accent-dark) !important;
+  color: var(--editorial-link-hover) !important;
   background: var(--theme-accent-soft);
   border-color: var(--paper-hover-edge);
   box-shadow: none;
+}
+
+.sidebar .author__urls a:hover i {
+  color: var(--editorial-link-hover) !important;
 }
 
 .page__content > h1::after {
@@ -148,6 +158,15 @@ body.accent-border-top::before {
   color: var(--paper-edge);
 }
 
+.project-card__name a,
+.project-card__name a:visited {
+  color: var(--editorial-link);
+}
+
+.project-card__name a:hover {
+  color: var(--editorial-link-hover);
+}
+
 .publication-list .paper-box,
 .publication-list .floating-card,
 .publication-list .paper-box.floating-card {
@@ -163,7 +182,7 @@ body.accent-border-top::before {
 .publication-list .paper-box:focus-within {
   background: var(--paper-hover) !important;
   box-shadow: inset 0 0 0 1px var(--paper-hover-edge),
-    0 6px 18px rgba(8, 31, 92, 0.045);
+    0 6px 18px rgba(53, 77, 56, 0.045);
 }
 
 .publication-list .paper-box-image img,
@@ -183,7 +202,7 @@ body.accent-border-top::before {
 
 .publication-list .paper-box-text .btn-accent,
 .publication-list .paper-box-text .btn-accent:visited {
-  color: #4a4944 !important;
+  color: var(--editorial-link) !important;
   background: transparent;
   border-color: var(--editorial-line);
   border-radius: 999px;
@@ -193,7 +212,7 @@ body.accent-border-top::before {
 }
 
 .publication-list .paper-box-text .btn-accent:hover {
-  color: var(--theme-accent-dark) !important;
+  color: var(--editorial-link-hover) !important;
   background: var(--theme-accent-soft);
   border-color: var(--paper-hover-edge);
   box-shadow: none;

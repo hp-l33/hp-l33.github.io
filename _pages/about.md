@@ -20,8 +20,8 @@ redirect_from:
 <div class="anchor" id="about-me"></div>
 
 <section class="home-hero">
-  <div class="home-hero__eyebrow"><span></span> Efficient Generative AI · MLSys</div>
-  <p class="home-hero__intro">I am an M.Phil. student at <span class="about-highlight">HKUST(GZ)</span>, advised by <a href="https://sites.google.com/view/zeke-xie">Prof. Zeke Xie</a>. I am currently a research intern at <a href="https://research.nvidia.com/labs/eai/">NVIDIA Research</a> supervised by <a href="https://xieenze.github.io/">Enze Xie</a>. I was previously a visiting student at <span class="about-highlight">Westlake University</span>, advised by <a href="https://huanwang.tech">Prof. Huan Wang</a>. My research focuses on <span class="about-highlight">Efficient Generative AI</span> and <span class="about-highlight">MLSys</span>.</p>
+  <div class="home-hero__eyebrow"><span></span> Efficient Generative AI · MLsys</div>
+  <p class="home-hero__intro">I am an M.Phil. student at <span class="about-highlight">HKUST(GZ)</span>, advised by <a href="https://sites.google.com/view/zeke-xie">Prof. Zeke Xie</a>. I am currently a research intern at <a href="https://research.nvidia.com/labs/eai/">NVIDIA Research</a> supervised by <a href="https://xieenze.github.io/">Enze Xie</a>. I was previously a visiting student at <span class="about-highlight">Westlake University</span>, advised by <a href="https://huanwang.tech">Prof. Huan Wang</a>. My research focuses on <span class="about-highlight">Efficient Generative AI</span> and <span class="about-highlight">MLsys</span>.</p>
 </section>
 
 
@@ -143,22 +143,6 @@ redirect_from:
     <div class="links">
       <a href="https://arxiv.org/abs/2606.23743" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
       <a href="https://github.com/NVlabs/Sana/tree/sol-engine" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent" style="text-transform: none;">Technical Report</div>
-    <img src='images/titlepage_mainecoon.png' alt="MaineCoon" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>MaineCoon: Pursuing A Real-Time Audio-Visual Social World Model</h3>
-    <div class="authors">Catnip AI Team (including <span class="accent-text">Haopeng Li</span>)</div>
-    <div class="venue">Technical Report</div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2606.17800" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="https://github.com/catnip-ai-tech/MaineCoon" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>

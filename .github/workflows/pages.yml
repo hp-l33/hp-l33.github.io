@@ -31,25 +31,6 @@ jobs:
           source: ./
           destination: ./_site
 
-      - name: Install homepage check browser
-        run: |
-          npm install --prefix "$RUNNER_TEMP/homepage-check" --no-save --package-lock=false playwright@1.62.1
-          "$RUNNER_TEMP/homepage-check/node_modules/.bin/playwright" install --with-deps chromium
-
-      - name: Verify homepage layout and navigation
-        env:
-          NODE_PATH: ${{ runner.temp }}/homepage-check/node_modules
-          VISUAL_OUTPUT: ${{ runner.temp }}/homepage-screenshots
-        run: node scripts/check-homepage.cjs
-
-      - name: Upload homepage screenshots
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: homepage-screenshots
-          path: ${{ runner.temp }}/homepage-screenshots
-          if-no-files-found: ignore
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
 

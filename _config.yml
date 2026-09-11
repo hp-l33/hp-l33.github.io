@@ -109,8 +109,6 @@ exclude:
   - log
   - node_modules
   - package.json
-  - scripts
-  - homepage-check
   - tmp
   - vendor
 keep_files:

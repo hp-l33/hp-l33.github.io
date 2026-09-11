@@ -1,28 +1,30 @@
-/* Homepage-only visual skin with Lieflat Charts' Porcelain blue accents:
-   https://github.com/larashero3-dotcom/lieflat-charts/blob/main/color-presets.js
-   Retain the existing paper surfaces, layout, serif typography and navigation. */
+/* Homepage-only editorial skin. Original CSS inspired by Lieflat Charts'
+   paper/ink hierarchy, fine rules and restrained Wire accent:
+   https://github.com/larashero3-dotcom/lieflat-charts
+   Content, serif typography and the profile/content columns stay unchanged. */
 :root {
   color-scheme: light;
-  --theme-accent: #334eac;
-  --theme-accent-text: var(--theme-accent);
-  --theme-accent-dark: #081f5c;
-  --theme-accent-soft: #e5ebf6;
+  --theme-accent: #f5572f;
+  --theme-accent-text: #a83a20;
+  --theme-accent-dark: #8f301c;
+  --theme-accent-soft: #f4e6df;
   --editorial-paper: #f0efeb;
-  --editorial-paper-deep: #e9e8e1;
-  --editorial-ink: #1f1e1c;
+  --editorial-paper-deep: #e6e5df;
+  --editorial-ink: #1c1c1a;
   --editorial-muted: #6a6963;
-  --editorial-line: #d4d2cb;
-  --editorial-card: #f7f6f2;
-  --editorial-red: var(--theme-accent-text);
+  --editorial-line: #d3d2ca;
+  --editorial-card: #f8f7f3;
+  --editorial-red: var(--editorial-ink);
   --editorial-red-deep: var(--theme-accent-dark);
-  --editorial-teal: #6a6963;
+  --editorial-teal: var(--editorial-muted);
   --editorial-gold: var(--theme-accent);
-  --editorial-link: var(--theme-accent-text);
-  --editorial-link-hover: var(--theme-accent-dark);
-  --editorial-highlight: var(--theme-accent-text);
-  --paper-edge: #c5c4ba;
-  --paper-hover: #edf0f5;
-  --paper-hover-edge: #bad6eb;
+  --editorial-link: var(--editorial-ink);
+  --editorial-link-hover: var(--theme-accent-text);
+  --editorial-highlight: var(--editorial-ink);
+  --paper-edge: #c6c5bf;
+  --paper-hover: #fbfaf7;
+  --paper-hover-edge: #b8b6ab;
+  --editorial-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 
 html,
@@ -32,51 +34,80 @@ body.accent-border-top {
 }
 
 body.accent-border-top::before {
-  background: var(--editorial-line);
+  display: none;
 }
 
 ::selection {
-  color: var(--theme-accent-dark);
-  background: var(--theme-accent-soft);
+  color: var(--editorial-ink);
+  background: #e7d6cb;
 }
 
 .masthead {
+  top: 0;
   background: var(--editorial-paper);
-  border-color: var(--editorial-line);
+  border-bottom: 1px solid var(--editorial-line);
   box-shadow: none;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
 }
 
-/* Retain the navigation's fixed geometry and static hover behavior. */
+/* Static text navigation. Hover changes paint, never font metrics or geometry.
+   Reset the list-item wrapper too: legacy generic list hovers translate it. */
+.greedy-nav--static .visible-links > li,
+.greedy-nav--static .visible-links > li:hover,
+.greedy-nav--static .visible-links > li:focus-within {
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
+}
+
 .greedy-nav .visible-links > li > a,
 .greedy-nav .visible-links > li > a:visited,
+.greedy-nav .visible-links > li > a:hover,
 .greedy-nav .visible-links > li > a:focus,
 .greedy-nav .visible-links > li > a:active {
-  --nav-text-paint: var(--editorial-muted);
+  color: var(--editorial-muted) !important;
+  -webkit-text-fill-color: currentColor !important;
+  text-shadow: none;
   background: transparent !important;
-  border-color: var(--editorial-line) !important;
-  border-radius: 999px;
+  border-color: transparent !important;
+  border-radius: 3px;
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
 }
 
 .greedy-nav .visible-links > li > a:hover,
 .greedy-nav .visible-links > li > a:focus-visible {
-  --nav-text-paint: var(--theme-accent-dark);
-  background: var(--theme-accent-soft) !important;
-  border-color: var(--paper-hover-edge) !important;
+  color: var(--theme-accent-text) !important;
 }
 
+/* The introduction reads like an opening paragraph, not a glass panel. */
 .home-hero {
+  padding-left: clamp(1.25rem, 2.5vw, 2rem);
+  padding-right: clamp(1.25rem, 2.5vw, 2rem);
   background: var(--editorial-card);
-  border-radius: 24px;
-  box-shadow: none;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 var(--editorial-line),
+    inset 0 -1px 0 var(--editorial-line);
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
 }
 
+.home-hero__eyebrow {
+  color: var(--editorial-muted);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
 .home-hero__eyebrow span {
+  width: 0.4rem;
+  height: 0.4rem;
+  flex: 0 0 auto;
   background: var(--theme-accent);
-  box-shadow: 0 0 0 4px rgba(51, 78, 172, 0.10);
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .home-hero__intro {
@@ -84,7 +115,7 @@ body.accent-border-top::before {
 }
 
 .home-hero__intro a:hover {
-  color: var(--theme-accent-dark) !important;
+  color: var(--theme-accent-text) !important;
 }
 
 .primary-gradient-text {
@@ -94,7 +125,7 @@ body.accent-border-top::before {
 .author__avatar,
 .author__avatar img,
 .sidebar .author__avatar img {
-  border-radius: 24px;
+  border-radius: 6px;
   box-shadow: none;
 }
 
@@ -102,22 +133,58 @@ body.accent-border-top::before {
   box-shadow: inset 0 0 0 1px var(--editorial-line);
 }
 
+.author__bio {
+  color: var(--editorial-muted);
+}
+
 .author__urls a,
 .author__urls a:visited {
   color: #4a4944;
   background: transparent;
-  border-color: var(--editorial-line);
-  border-radius: 999px;
+  border: 1px solid var(--editorial-line);
+  border-radius: 4px;
   box-shadow: none;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
 }
 
 .author__urls a:hover {
-  color: var(--theme-accent-dark) !important;
-  background: var(--theme-accent-soft);
+  color: var(--theme-accent-text) !important;
+  background: var(--editorial-card);
   border-color: var(--paper-hover-edge);
   box-shadow: none;
+}
+
+.author__urls a i,
+.author__urls a:hover i {
+  color: inherit !important;
+  transform: none;
+}
+
+/* Small index numbers and rules establish the hierarchy without bigger type. */
+.page__content {
+  counter-reset: home-section;
+}
+
+.page__content > h1 {
+  counter-increment: home-section;
+}
+
+.page__content > h1::before {
+  content: counter(home-section, decimal-leading-zero);
+  display: block;
+  position: static;
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  margin: 0 0.7rem 0 0;
+  color: var(--theme-accent-text);
+  background: none;
+  font-family: var(--editorial-mono);
+  font-size: 0.58rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1;
 }
 
 .page__content > h1::after {
@@ -128,18 +195,24 @@ body.accent-border-top::before {
   background: var(--editorial-line);
 }
 
+/* Projects remain two compact, single-line entries on desktop. */
 .project-card {
-  background: var(--editorial-card);
-  border-radius: 14px;
-  box-shadow: inset 0 0 0 1px var(--editorial-line);
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: inset 0 1px 0 var(--editorial-line),
+    inset 0 -1px 0 var(--editorial-line);
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
+  transition: background-color 160ms ease;
 }
 
 .project-card:hover,
 .project-card:focus-within {
-  background: var(--paper-hover);
-  box-shadow: inset 0 0 0 1px var(--paper-hover-edge);
+  transform: none;
+  background: var(--editorial-card);
+  box-shadow: inset 0 1px 0 var(--paper-hover-edge),
+    inset 0 -1px 0 var(--paper-hover-edge);
 }
 
 .project-card__identity-divider,
@@ -148,55 +221,110 @@ body.accent-border-top::before {
   color: var(--paper-edge);
 }
 
+.project-card__name a,
+.project-card__name a:visited {
+  font-weight: 500;
+}
+
+.project-card__links a,
+.project-card__links a:visited {
+  color: var(--editorial-muted);
+}
+
+/* Quiet paper rows: framed artwork, ink titles, uniform rectangular controls. */
+.publication-list {
+  gap: 0.75rem;
+}
+
 .publication-list .paper-box,
 .publication-list .floating-card,
 .publication-list .paper-box.floating-card {
   background: var(--editorial-card) !important;
-  border-radius: 24px;
-  box-shadow: inset 0 0 0 1px rgba(212, 210, 203, 0.55);
+  border-radius: 6px;
+  box-shadow: inset 0 0 0 1px #e0dfd7;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
+  opacity: 1;
+  transform: none;
+  transition: background-color 180ms ease, box-shadow 180ms ease;
 }
 
 .publication-list .paper-box:hover,
 .publication-list .floating-card:hover,
 .publication-list .paper-box:focus-within {
+  transform: none;
   background: var(--paper-hover) !important;
-  box-shadow: inset 0 0 0 1px var(--paper-hover-edge),
-    0 6px 18px rgba(8, 31, 92, 0.045);
+  box-shadow: inset 3px 0 0 var(--theme-accent),
+    inset 0 0 0 1px var(--paper-hover-edge);
 }
 
 .publication-list .paper-box-image img,
 .publication-list .paper-box:hover .paper-box-image img {
-  border-color: var(--paper-edge);
-  border-radius: 14px;
+  transform: none;
+  border: 1px solid var(--paper-edge);
+  border-radius: 3px;
   background: #fff;
+  box-shadow: 0 2px 0 rgba(28, 28, 26, 0.04);
+}
+
+.publication-list .paper-box-text h3 {
+  color: var(--editorial-ink) !important;
+}
+
+.publication-list .paper-box-text .authors {
+  color: var(--editorial-muted) !important;
+}
+
+.publication-list .paper-box-text .venue,
+.publication-list .paper-box-text .btn-accent,
+.publication-list .paper-box-text .btn-accent:visited {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.72rem;
+  min-height: 1.72rem;
+  padding: 0 0.55rem;
+  color: #4a4944 !important;
+  border: 1px solid var(--editorial-line);
+  border-radius: 3px;
   box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1;
 }
 
 .publication-list .paper-box-text .venue {
-  color: var(--editorial-muted) !important;
   background: var(--editorial-paper-deep);
-  border-radius: 6px;
-  box-shadow: none;
+  border-color: var(--editorial-paper-deep);
 }
 
 .publication-list .paper-box-text .btn-accent,
 .publication-list .paper-box-text .btn-accent:visited {
-  color: #4a4944 !important;
+  margin-left: 0;
   background: transparent;
-  border-color: var(--editorial-line);
-  border-radius: 999px;
-  box-shadow: none;
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
+  transition: color 160ms ease, background-color 160ms ease, border-color 160ms ease;
 }
 
 .publication-list .paper-box-text .btn-accent:hover {
-  color: var(--theme-accent-dark) !important;
+  transform: none;
+  color: var(--theme-accent-text) !important;
   background: var(--theme-accent-soft);
-  border-color: var(--paper-hover-edge);
+  border-color: #d9b7a7;
   box-shadow: none;
+}
+
+.award-date {
+  color: var(--editorial-muted);
+  font-family: var(--editorial-mono);
+  font-size: 0.7rem;
+}
+
+.award-item {
+  border: 0;
 }
 
 .page__footer {
@@ -213,13 +341,29 @@ body.accent-border-top::before {
 }
 
 @media (max-width: 760px) {
-  .home-hero,
-  .author__avatar,
-  .author__avatar img,
-  .sidebar .author__avatar img,
+  .home-hero {
+    padding: 1.35rem 1.1rem;
+  }
+
+  .project-card {
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+  }
+
+  .project-card__name {
+    white-space: normal;
+  }
+
+  .project-card__name a {
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-card,
   .publication-list .paper-box,
   .publication-list .floating-card,
-  .publication-list .paper-box.floating-card {
-    border-radius: 18px;
+  .publication-list .paper-box-text .btn-accent {
+    transition: none;
   }
 }

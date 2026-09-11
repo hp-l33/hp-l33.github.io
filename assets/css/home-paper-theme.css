@@ -54,7 +54,7 @@ body.accent-border-top::before {
 .greedy-nav .visible-links > li > a:visited,
 .greedy-nav .visible-links > li > a:focus,
 .greedy-nav .visible-links > li > a:active {
-  --nav-text-paint: var(--editorial-link);
+  --nav-text-paint: #000000;
   background: transparent !important;
   border-color: var(--editorial-line) !important;
   border-radius: 999px;
@@ -62,7 +62,7 @@ body.accent-border-top::before {
 
 .greedy-nav .visible-links > li > a:hover,
 .greedy-nav .visible-links > li > a:focus-visible {
-  --nav-text-paint: var(--editorial-link-hover);
+  --nav-text-paint: #000000;
   background: var(--theme-accent-soft) !important;
   border-color: var(--paper-hover-edge) !important;
 }
@@ -114,7 +114,7 @@ body.accent-border-top::before {
 
 .author__urls a,
 .author__urls a:visited {
-  color: var(--editorial-link);
+  color: #000000;
   background: transparent;
   border-color: var(--editorial-line);
   border-radius: 999px;
@@ -124,14 +124,15 @@ body.accent-border-top::before {
 }
 
 .author__urls a:hover {
-  color: var(--editorial-link-hover) !important;
+  color: #000000 !important;
   background: var(--theme-accent-soft);
   border-color: var(--paper-hover-edge);
   box-shadow: none;
 }
 
+.sidebar .author__urls a i,
 .sidebar .author__urls a:hover i {
-  color: var(--editorial-link-hover) !important;
+  color: #000000 !important;
 }
 
 .page__content > h1::after {

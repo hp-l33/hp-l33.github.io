@@ -11,6 +11,9 @@
 <!-- 学术图标和增强的强调色样式 -->
 <link rel="stylesheet" href="assets/css/academicons.css"/>
 <link rel="stylesheet" href="{{ '/assets/css/accent-enhancements.css' | relative_url }}?v={{ site.time | date: '%s' }}"/>
+{% if page.permalink == '/' %}
+<link rel="stylesheet" href="{{ '/assets/css/home-paper-theme.css' | relative_url }}?v={{ site.time | date: '%s' }}"/>
+{% endif %}
 
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">

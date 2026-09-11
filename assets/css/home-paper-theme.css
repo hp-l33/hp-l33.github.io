@@ -1,29 +1,28 @@
-/* Homepage-only visual skin inspired by Sol-H3-Spark's light edition:
-   https://nvlabs.github.io/Sana/Sol-Engine/Sol-H3-Spark/
-   Retain the existing layout, serif typography, content and navigation.
-   Highlight green is a slightly darker variation of the reference's 56s. */
+/* Homepage-only visual skin with Lieflat Charts' Porcelain blue accents:
+   https://github.com/larashero3-dotcom/lieflat-charts/blob/main/color-presets.js
+   Retain the existing paper surfaces, layout, serif typography and navigation. */
 :root {
   color-scheme: light;
-  --spark-green: #739f2f;
-  --spark-green-text: var(--spark-green);
-  --spark-green-dark: #385132;
-  --spark-green-soft: #e5eadb;
+  --theme-accent: #334eac;
+  --theme-accent-text: var(--theme-accent);
+  --theme-accent-dark: #081f5c;
+  --theme-accent-soft: #e5ebf6;
   --editorial-paper: #f0efeb;
   --editorial-paper-deep: #e9e8e1;
   --editorial-ink: #1f1e1c;
   --editorial-muted: #6a6963;
   --editorial-line: #d4d2cb;
   --editorial-card: #f7f6f2;
-  --editorial-red: var(--spark-green-text);
-  --editorial-red-deep: var(--spark-green-dark);
+  --editorial-red: var(--theme-accent-text);
+  --editorial-red-deep: var(--theme-accent-dark);
   --editorial-teal: #6a6963;
-  --editorial-gold: var(--spark-green);
-  --editorial-link: var(--spark-green-text);
-  --editorial-link-hover: var(--spark-green-dark);
-  --editorial-highlight: var(--spark-green-text);
+  --editorial-gold: var(--theme-accent);
+  --editorial-link: var(--theme-accent-text);
+  --editorial-link-hover: var(--theme-accent-dark);
+  --editorial-highlight: var(--theme-accent-text);
   --paper-edge: #c5c4ba;
-  --paper-hover: #edf0e6;
-  --paper-hover-edge: #b2c19b;
+  --paper-hover: #edf0f5;
+  --paper-hover-edge: #bad6eb;
 }
 
 html,
@@ -37,8 +36,8 @@ body.accent-border-top::before {
 }
 
 ::selection {
-  color: var(--spark-green-dark);
-  background: var(--spark-green-soft);
+  color: var(--theme-accent-dark);
+  background: var(--theme-accent-soft);
 }
 
 .masthead {
@@ -62,8 +61,8 @@ body.accent-border-top::before {
 
 .greedy-nav .visible-links > li > a:hover,
 .greedy-nav .visible-links > li > a:focus-visible {
-  --nav-text-paint: var(--spark-green-dark);
-  background: var(--spark-green-soft) !important;
+  --nav-text-paint: var(--theme-accent-dark);
+  background: var(--theme-accent-soft) !important;
   border-color: var(--paper-hover-edge) !important;
 }
 
@@ -76,8 +75,8 @@ body.accent-border-top::before {
 }
 
 .home-hero__eyebrow span {
-  background: var(--spark-green);
-  box-shadow: 0 0 0 4px rgba(115, 159, 47, 0.10);
+  background: var(--theme-accent);
+  box-shadow: 0 0 0 4px rgba(51, 78, 172, 0.10);
 }
 
 .home-hero__intro {
@@ -85,7 +84,7 @@ body.accent-border-top::before {
 }
 
 .home-hero__intro a:hover {
-  color: var(--spark-green-dark) !important;
+  color: var(--theme-accent-dark) !important;
 }
 
 .primary-gradient-text {
@@ -115,8 +114,8 @@ body.accent-border-top::before {
 }
 
 .author__urls a:hover {
-  color: var(--spark-green-dark) !important;
-  background: var(--spark-green-soft);
+  color: var(--theme-accent-dark) !important;
+  background: var(--theme-accent-soft);
   border-color: var(--paper-hover-edge);
   box-shadow: none;
 }
@@ -164,7 +163,7 @@ body.accent-border-top::before {
 .publication-list .paper-box:focus-within {
   background: var(--paper-hover) !important;
   box-shadow: inset 0 0 0 1px var(--paper-hover-edge),
-    0 6px 18px rgba(53, 77, 56, 0.045);
+    0 6px 18px rgba(8, 31, 92, 0.045);
 }
 
 .publication-list .paper-box-image img,
@@ -194,8 +193,8 @@ body.accent-border-top::before {
 }
 
 .publication-list .paper-box-text .btn-accent:hover {
-  color: var(--spark-green-dark) !important;
-  background: var(--spark-green-soft);
+  color: var(--theme-accent-dark) !important;
+  background: var(--theme-accent-soft);
   border-color: var(--paper-hover-edge);
   box-shadow: none;
 }
@@ -209,7 +208,7 @@ body.accent-border-top::before {
 .greedy-nav a:focus-visible,
 .author__urls a:focus-visible,
 .page__content a:focus-visible {
-  outline: 2px solid var(--spark-green-text);
+  outline: 2px solid var(--theme-accent-text);
   outline-offset: 3px;
 }
 

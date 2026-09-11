@@ -1,10 +1,10 @@
 /* Homepage-only visual skin inspired by Sol-H3-Spark's light edition:
    https://nvlabs.github.io/Sana/Sol-Engine/Sol-H3-Spark/
    Retain the existing layout, serif typography, content and navigation.
-   Highlight text matches the reference hero's bright-green 56s value. */
+   Highlight green is a slightly darker variation of the reference's 56s. */
 :root {
   color-scheme: light;
-  --spark-green: #84b736;
+  --spark-green: #739f2f;
   --spark-green-text: var(--spark-green);
   --spark-green-dark: #385132;
   --spark-green-soft: #e5eadb;
@@ -77,7 +77,7 @@ body.accent-border-top::before {
 
 .home-hero__eyebrow span {
   background: var(--spark-green);
-  box-shadow: 0 0 0 4px rgba(132, 183, 54, 0.10);
+  box-shadow: 0 0 0 4px rgba(115, 159, 47, 0.10);
 }
 
 .home-hero__intro {

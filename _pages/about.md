@@ -187,10 +187,10 @@ redirect_from:
 <div class="award-list">
   <div class="award-item">
     <span class="award-date">2025.09</span>
-    <span class="award-detail"><strong>Postgraduate Studentship</strong><span>HKUST(GZ)</span></span>
+    <span class="award-detail"><strong>HKUST(GZ) Postgraduate Studentship</strong></span>
   </div>
   <div class="award-item">
     <span class="award-date">2021.10</span>
-    <span class="award-detail"><strong>National Scholarship</strong><span>Ministry of Education</span></span>
+    <span class="award-detail"><strong>National Scholarship</strong></span>
   </div>
 </div>

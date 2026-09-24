@@ -197,14 +197,10 @@ body.accent-border-top::before {
 }
 
 .publication-list .paper-box-text .venue {
-  /* A solid, high-contrast label; retain the shared 1.72rem control height. */
-  color: #ffffff !important;
-  background: var(--theme-accent-dark);
+  color: var(--editorial-muted) !important;
+  background: var(--editorial-paper-deep);
   border-radius: 6px;
   box-shadow: none;
-  font-size: 0.68rem;
-  font-weight: 750;
-  letter-spacing: 0.025em;
 }
 
 .publication-list .paper-box-text .btn-accent,
